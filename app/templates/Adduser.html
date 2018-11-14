@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+
+{% block title %}用户管理{% endblock %}
+
+
+{% block navbar %}
+<section class="content-header">
+    <h1>用户管理操作</h1>
+    <ol class="breadcrumb">
+        <li><i class="fa fa-dashboard"></i> 当前位置</li>
+        <li class="active">增加用户</li>
+{#        <li class="active">通知方式配置</li>#}
+    </ol>
+</section>
+{% endblock %}
+
+
+{% block content %}
+<div class="box box-primary">
+    <form method="post">
+        {{form.hidden_tag()}}
+        <div class="box-header with-border">
+            {% include 'message.html' %}
+        </div>
+
+        <div class="box-body">
+{#            <div class="col-md-12">#}
+{#                <div class="form-group">#}
+{#                    <label>{{form.check_order.label}}</label>#}
+{#                    {{form.check_order(class_="slider form-control",placeholder="请输入 列表顺序")}}#}
+{#                </div>#}
+{#            </div>#}
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label>{{form.user_name.label}}</label>
+                    {{form.user_name(class_="form-control",placeholder="请输入用户名称")}}
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>{{form.user_nick.label}}</label>
+                    {{form.user_nick(class_="form-control select2",placeholder="请输入用户昵称")}}
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>{{form.recent_active_time.label}}</label>
+                    {{form.recent_active_time(class_="form-control",placeholder="请输入最近活跃时间")}}
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>{{form.number_of_tweets.label}}</label>
+                    {{form.number_of_tweets(class_="form-control",placeholder="请输入推特数量")}}
+                </div>
+            </div>
+        </div>
+
+        <div class="box-footer">
+            <div class="col-md-12">
+                {{form.submit(class_="btn btn-primary pull-right")}}
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}
