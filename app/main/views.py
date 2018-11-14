@@ -13,39 +13,12 @@ import math
 from flask import render_template, redirect, url_for, flash, request
 from flask_login import login_required, current_user
 from app import utils
-from app.models import CfgNotify,Twitter
-from app.main.forms import CfgNotifyForm,UserForm
+from app.models import Twitter
+from app.main.forms import UserForm,SearchForm
 from . import main
 
 logger = get_logger(__name__)
 cfg = get_config()
-
-# 通用列表查询
-def common_list(DynamicModel, view):
-    # 接收参数
-    action = request.args.get('action')
-    id = request.args.get('id')
-    page = int(request.args.get('page')) if request.args.get('page') else 1
-    length = int(request.args.get('length')) if request.args.get('length') else cfg.ITEMS_PER_PAGE
-
-    # 删除操作
-    if action == 'del' and id:
-        try:
-            DynamicModel.get(DynamicModel.id == id).delete_instance()
-            flash('删除成功')
-        except:
-            flash('删除失败')
-
-    # 查询列表
-    query = DynamicModel.select()
-    total_count = query.count()
-
-    # 处理分页
-    if page: query = query.paginate(page, length)
-
-    dict = {'content': utils.query_to_list(query), 'total_count': total_count,
-            'total_page': math.ceil(total_count / length), 'page': page, 'length': length}
-    return render_template(view, form=dict, current_user=current_user)
 
 def common_manage(DynamicModel,view):
     # 接收参数
@@ -73,8 +46,8 @@ def common_manage(DynamicModel,view):
             'total_page': math.ceil(total_count / length), 'page': page, 'length': length}
     return render_template(view, form=dict, current_user=current_user)
 
-# 通用单模型查询&新增&修改
-def common_edit(DynamicModel, form, view):
+#查询用户界面显示
+def common_search(DynamicModel,form,view):
     id = request.args.get('id', '')
     if id:
         # 查询
@@ -94,11 +67,12 @@ def common_edit(DynamicModel, form, view):
         if form.validate_on_submit():
             model = DynamicModel()
             utils.form_to_model(form, model)
-            model.save()
-            flash('保存成功')
+            dict=utils.obj_to_dict(model)
+            return render_template('personInfo.html', form=dict, current_user=current_user)
         else:
             utils.flash_errors(form)
     return render_template(view, form=form, current_user=current_user)
+
 
 def common_adduser(DynamicModel,form,view):
     id = request.args.get('id', '')
@@ -159,6 +133,7 @@ def index():
 @login_required
 def manage():
     return common_manage(Twitter, 'managelist.html')
+
 #增加用户
 @main.route('/adduser',methods=['GET','POST'])
 @login_required
@@ -166,42 +141,9 @@ def adduser():
     return common_adduser(Twitter,UserForm(),'Adduser.html')
 
 
-# 通知方式查询
-@main.route('/notifylist', methods=['GET', 'POST'])
+#查詢用戶界面
+@main.route('/searchpage',methods=['GET','POST'])
 @login_required
-def notifylist():
-    return common_list(CfgNotify,'notifylist.html')
-# 通知方式配置
-@main.route('/notifyedit', methods=['GET', 'POST'])
-@login_required
-def notifyedit():
-    return common_edit(CfgNotify, CfgNotifyForm(), 'notifyedit.html')
-
-def draft():
-    heatmap = HeatMap(width=600, height=300)
-    x = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-    y = ['Mon', 'Tues', 'Wen', 'Tues', 'Fri', 'Sat', 'Sun']
-    data = [[i, j, random.randint(0, 50)] for i in range(12) for j in range(7)]
-    heatmap.add(
-        "heatmap",
-        x,
-        y,
-        data,
-        is_visualmap=True,
-        visual_text_color='blue',
-        visual_orient='horizontal',
-        visvual_pos='right',
-        visual_bottom='5%'
-    )
-    config = PyEchartsConfig(echarts_template_dir='app/templates', jshost='app/static/js')
-    # 创建echart的运行环境,主要是为了确认文件存放取出的文件夹,和js依赖文件引入的来源
-    env = EchartsEnvironment(pyecharts_config=config)
-    tpl = env.get_template('demo.html')  # 提取模板文件
-    html = tpl.render(heatmap=heatmap)  # 渲染
-    write_utf8_html_file('app/templates/index2.html', html)
-
-
-
-
-
+def searchpage():
+    return common_search(Twitter,SearchForm(),'Searchuser.html')
 
