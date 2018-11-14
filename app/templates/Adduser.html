@@ -1,3 +1,4 @@
+
 {% extends "base.html" %}
 
 {% block title %}用户管理{% endblock %}
@@ -14,7 +15,6 @@
 </section>
 {% endblock %}
 
-
 {% block content %}
 <div class="box box-primary">
     <form method="post">
@@ -24,12 +24,9 @@
         </div>
 
         <div class="box-body">
-{#            <div class="col-md-12">#}
-{#                <div class="form-group">#}
-{#                    <label>{{form.check_order.label}}</label>#}
-{#                    {{form.check_order(class_="slider form-control",placeholder="请输入 列表顺序")}}#}
-{#                </div>#}
-{#            </div>#}
+            <div class="col-md-12">
+                <img src="../static/plugins/twitter/img/twitter1.png" class="tw_icon center-block img-circle img-thumbnail">
+            </div>
             <div class="col-md-12">
                 <div class="form-group">
                     <label>{{form.user_name.label}}</label>
