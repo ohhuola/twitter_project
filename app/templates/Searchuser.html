@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}用户管理{% endblock %}
+
+
+{% block navbar %}
+<section class="content-header">
+    <h1>用户管理操作</h1>
+    <ol class="breadcrumb">
+        <li><i class="fa fa-dashboard"></i> 当前位置</li>
+        <li class="active">查詢用户</li>
+{#        <li class="active">通知方式配置</li>#}
+    </ol>
+</section>
+{% endblock %}
+
+{% block content %}
+<div class="box box-primary">
+    <form method="post">
+        {{form.hidden_tag()}}
+        <div class="box-header with-border">
+            {% include 'message.html' %}
+        </div>
+
+        <div class="box-body">
+            <div class="col-md-12" style="margin-top:20px; margin-bottom: 50px">
+                <img src="../static/plugins/twitter/img/twitter2.png" style="width:400px;height:270px;" class="center-block">
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                    {{form.user_name(class_="form-control",placeholder="请输入用户名称")}}
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                {{form.submit(class_="btn btn-primary")}}
+            </div>
+
+    </form>
+</div>
+{% endblock %}

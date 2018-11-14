@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}用户管理{% endblock %}
+
+
+{% block navbar %}
+<section class="content-header">
+    <h1>用户管理操作</h1>
+    <ol class="breadcrumb">
+        <li><i class="fa fa-dashboard"></i> 当前位置</li>
+        <li class="active">详细信息</li>
+{#        <li class="active">通知方式配置</li>#}
+    </ol>
+</section>
+{% endblock %}
+
+{% block content %}
+    {{ form.user_name }}
+
+{% endblock %}
