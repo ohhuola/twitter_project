@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block head %}
+    {% for jsfile_name in script_list %}
+        <script src="{{ host }}/{{ jsfile_name }}.js"></script>
+    {% endfor %}
+{% endblock %}
+
+
+{% block title %}首页{% endblock %}
+
+{% block css %}
+
+
+{% endblock %}
+{% block navbar %}
+<section class="content-header">
+    <h1>首页</h1>
+    <ol class="breadcrumb">
+        <li><i class="fa fa-dashboard"></i> 当前位置</li>
+        <li class="active">首页</li>
+    </ol>
+</section>
+{% endblock %}
+
+{% block content %}
+<div class="box box-primary">
+    <div class="box-body">
+        <div class="row">
+            <div class="col-lg-3 col-xs-6">
+                <div class="small-box bg-aqua" >
+                    <div class="inner">
+                        <h3 id="count01">0</h3>
+                        <p>累计用户</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-person-add"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-xs-6">
+                <div class="small-box bg-green">
+                    <div class="inner">
+                        <h3 id="count02">0</h3>
+                        <p>地理位置</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-earth"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-xs-6">
+                <div class="small-box bg-yellow">
+                    <div class="inner">
+                        <h3 id="count03">0</h3>
+                        <p>推特</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-social-twitter"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-xs-6">
+                <div class="small-box bg-red">
+                    <div class="inner">
+                        <h3 id="count04">0</h3>
+                        <p>标签</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-pricetag"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    {{ myechart|safe }}
+
+
+    </div>
+
+    <!--<div class="box-footer">
+        <div class="alert alert-info alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <h4><i class="icon fa fa-info"></i> 温馨提示</h4>
+            <ol>
+                <li>温馨提示温馨提示温馨提示</li>
+                <li>温馨提示温馨提示温馨提示</li>
+            </ol>
+        </div>
+    </div>-->
+
+</div>
+{% endblock %}
+
+{% block scripts %}
+
+{% endblock %}
