@@ -49,7 +49,7 @@ class CfgNotify(BaseModel):
     notify_number = CharField()  # 通知号码
     status = BooleanField(default=True)  # 生效失效标识
 
-#推特用户配置
+#推文配置
 class Tweet(BaseModel):
     tweet_id=CharField()
     tweet_user_id=CharField()
@@ -71,6 +71,12 @@ class Tweet(BaseModel):
     time=CharField()
 
 
+#推特用户配置
+class Twitter(BaseModel):
+    user_name = CharField()
+    user_nick = CharField()
+    recent_active_time=CharField()
+    number_of_tweets=CharField()
 
 
 
