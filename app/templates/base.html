@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='plugins/font-awesome/css/font-awesome.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='plugins/ionicons/css/ionicons.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='plugins/bootstrap-slider/slider.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='plugins/twitter/css/twitter.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='plugins/pace/pace.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='plugins/bootstrap-switch/bootstrap-switch.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='plugins/select2/select2.min.css') }}">
@@ -86,9 +87,9 @@
                         <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="{{ url_for('main.adduser') }}"><i class="fa fa-circle-o"></i> 增添用户</a></li>
-                        <li><a href="{{ url_for('main.notifylist') }}"><i class="fa fa-circle-o"></i> 查询用户</a></li>
-                        <li><a href="{{ url_for('main.manage') }}"><i class="fa fa-circle-o"></i> 管理用户</a></li>
+                        <li><a href="{{ url_for('main.adduser') }}"><i class="fa fa-flag-o"></i> 增添用户</a></li>
+                        <li><a href="{{ url_for('main.manage') }}"><i class="fa fa-location-arrow"></i> 管理用户</a></li>
+                        <li><a href="{{ url_for('main.searchpage') }}"><i class="fa fa-rocket"></i> 查詢用户</a></li>
                     </ul>
                 </li>
                 <li class="treeview">

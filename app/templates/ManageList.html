@@ -49,7 +49,7 @@
                 </td>#}
 
                 <td><a class='fa fa-lg fa-edit text-light-blue'
-                      href='{{ url_for("main.notifyedit", id=row.id) }}'></a></td>{#传id是在哪里被用到的(view.py的两个common函数中#}
+                      href='{{ url_for("main.adduser", id=row.id) }}'></a></td>{#传id是在哪里被用到的(view.py的两个common函数中#}
                 <td><a class='fa fa-lg fa-warning text-red' href='?action=del&id={{row.id}}'></a></td>
             </tr>
             {% endfor %}
