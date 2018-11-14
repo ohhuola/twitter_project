@@ -13435,3 +13435,1082 @@
 2018-11-09 09:52:52,918 werkzeug     INFO      * Debugger PIN: 192-338-983
 2018-11-09 09:52:52,921 root         DEBUG    Loader for watchdog was unable to find the sources
 2018-11-09 09:52:52,950 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-14 12:21:34,023 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\hquotes.py
+2018-11-14 12:21:34,024 macropy.core.macros INFO     Finding macros in 'macropy.core.hquotes'
+2018-11-14 12:21:34,025 macropy.core.macros INFO     Importing macros from 'macropy.core.quotes' into 'macropy.core.hquotes'
+2018-11-14 12:21:34,025 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\quotes.py
+2018-11-14 12:21:34,026 macropy.core.macros INFO     Finding macros in 'macropy.core.quotes'
+2018-11-14 12:21:34,033 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 48
+2018-11-14 12:21:34,035 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 58
+2018-11-14 12:21:34,043 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\failure.py
+2018-11-14 12:21:34,044 macropy.core.macros INFO     Finding macros in 'macropy.core.failure'
+2018-11-14 12:21:34,044 macropy.core.macros INFO     Importing macros from 'macropy.core.hquotes' into 'macropy.core.failure'
+2018-11-14 12:21:34,046 macropy.core.macros DEBUG    Found macro 'hq', type 'Expr', line 29
+2018-11-14 12:21:34,065 lml.plugin   DEBUG    declare 'pyecharts_js_extension' plugin manager
+2018-11-14 12:21:34,065 lml.loader   DEBUG    scanning for plugins...
+2018-11-14 12:21:34,126 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 12:21:34,126 lml.utils    DEBUG    found echarts_china_cities_pypkg
+2018-11-14 12:21:34,132 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 12:21:34,132 lml.utils    DEBUG    found echarts_china_counties_pypkg
+2018-11-14 12:21:34,139 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 12:21:34,139 lml.utils    DEBUG    found echarts_china_misc_pypkg
+2018-11-14 12:21:34,146 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 12:21:34,146 lml.utils    DEBUG    found echarts_china_provinces_pypkg
+2018-11-14 12:21:34,152 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 12:21:34,152 lml.utils    DEBUG    found echarts_countries_pypkg
+2018-11-14 12:21:34,178 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 12:21:34,178 lml.utils    DEBUG    found jupyter_echarts_pypkg
+2018-11-14 12:21:34,183 lml.plugin.PluginInfoChain DEBUG    add pyecharts_snapshot.environment.SnapshotEnvironment as 'pyecharts_environment' plugin
+2018-11-14 12:21:34,183 lml.plugin   DEBUG    caching pyecharts_snapshot.environment.SnapshotEnvironment for pyecharts_environment
+2018-11-14 12:21:34,183 lml.utils    DEBUG    found pyecharts_snapshot
+2018-11-14 12:21:34,183 lml.loader   DEBUG    scanning done
+2018-11-14 12:21:34,192 lml.plugin   DEBUG    caching EchartsEnvironment
+2018-11-14 12:21:34,192 lml.plugin   DEBUG    declare 'pyecharts_environment' plugin manager
+2018-11-14 12:21:34,192 lml.plugin   DEBUG    load cached plugin info: pyecharts_snapshot.environment.SnapshotEnvironment
+2018-11-14 12:21:34,192 pyecharts.engine.EnvironmentManager DEBUG    load pyecharts_snapshot.environment.SnapshotEnvironment later
+2018-11-14 12:21:34,192 lml.plugin   DEBUG    load cached plugin info: EchartsEnvironment
+2018-11-14 12:21:34,193 pyecharts.engine.EnvironmentManager DEBUG    load None later
+2018-11-14 12:21:34,225 lml.plugin   DEBUG    caching DefaultChinaDataBank
+2018-11-14 12:21:34,225 lml.plugin   DEBUG    declare 'pyecharts_geo_data_bank' plugin manager
+2018-11-14 12:21:34,226 lml.plugin   DEBUG    load cached plugin info: DefaultChinaDataBank
+2018-11-14 12:21:34,226 pyecharts.datasets.coordinates.GeoDataBank DEBUG    load None later
+2018-11-14 12:21:34,283 root         DEBUG    Failed finding spec for pysqlite3
+2018-11-14 12:21:34,287 root         DEBUG    Failed finding spec for pysqlite2
+2018-11-14 12:21:34,318 root         DEBUG    Failed finding spec for psycopg2cffi
+2018-11-14 12:21:34,322 root         DEBUG    Failed finding spec for psycopg2
+2018-11-14 12:21:34,404 root         DEBUG    Loader for termios was unable to find the sources
+2018-11-14 12:21:34,481 root         DEBUG    Loader for babel was unable to find the sources
+2018-11-14 12:21:34,491 root         DEBUG    Loader for urllib2 was unable to find the sources
+2018-11-14 12:21:34,507 root         DEBUG    Loader for termcolor was unable to find the sources
+2018-11-14 12:21:34,510 root         DEBUG    Loader for SocketServer was unable to find the sources
+2018-11-14 12:21:34,705 root         DEBUG    Loader for watchdog was unable to find the sources
+2018-11-14 12:21:34,707 werkzeug     INFO      * Restarting with stat
+2018-11-14 12:21:35,199 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\hquotes.py
+2018-11-14 12:21:35,200 macropy.core.macros INFO     Finding macros in 'macropy.core.hquotes'
+2018-11-14 12:21:35,200 macropy.core.macros INFO     Importing macros from 'macropy.core.quotes' into 'macropy.core.hquotes'
+2018-11-14 12:21:35,201 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\quotes.py
+2018-11-14 12:21:35,201 macropy.core.macros INFO     Finding macros in 'macropy.core.quotes'
+2018-11-14 12:21:35,207 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 48
+2018-11-14 12:21:35,208 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 58
+2018-11-14 12:21:35,215 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\failure.py
+2018-11-14 12:21:35,216 macropy.core.macros INFO     Finding macros in 'macropy.core.failure'
+2018-11-14 12:21:35,216 macropy.core.macros INFO     Importing macros from 'macropy.core.hquotes' into 'macropy.core.failure'
+2018-11-14 12:21:35,218 macropy.core.macros DEBUG    Found macro 'hq', type 'Expr', line 29
+2018-11-14 12:21:35,230 lml.plugin   DEBUG    declare 'pyecharts_js_extension' plugin manager
+2018-11-14 12:21:35,230 lml.loader   DEBUG    scanning for plugins...
+2018-11-14 12:21:35,270 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 12:21:35,270 lml.utils    DEBUG    found echarts_china_cities_pypkg
+2018-11-14 12:21:35,275 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 12:21:35,275 lml.utils    DEBUG    found echarts_china_counties_pypkg
+2018-11-14 12:21:35,278 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 12:21:35,279 lml.utils    DEBUG    found echarts_china_misc_pypkg
+2018-11-14 12:21:35,282 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 12:21:35,282 lml.utils    DEBUG    found echarts_china_provinces_pypkg
+2018-11-14 12:21:35,286 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 12:21:35,286 lml.utils    DEBUG    found echarts_countries_pypkg
+2018-11-14 12:21:35,298 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 12:21:35,298 lml.utils    DEBUG    found jupyter_echarts_pypkg
+2018-11-14 12:21:35,301 lml.plugin.PluginInfoChain DEBUG    add pyecharts_snapshot.environment.SnapshotEnvironment as 'pyecharts_environment' plugin
+2018-11-14 12:21:35,301 lml.plugin   DEBUG    caching pyecharts_snapshot.environment.SnapshotEnvironment for pyecharts_environment
+2018-11-14 12:21:35,301 lml.utils    DEBUG    found pyecharts_snapshot
+2018-11-14 12:21:35,301 lml.loader   DEBUG    scanning done
+2018-11-14 12:21:35,306 lml.plugin   DEBUG    caching EchartsEnvironment
+2018-11-14 12:21:35,307 lml.plugin   DEBUG    declare 'pyecharts_environment' plugin manager
+2018-11-14 12:21:35,307 lml.plugin   DEBUG    load cached plugin info: pyecharts_snapshot.environment.SnapshotEnvironment
+2018-11-14 12:21:35,307 pyecharts.engine.EnvironmentManager DEBUG    load pyecharts_snapshot.environment.SnapshotEnvironment later
+2018-11-14 12:21:35,307 lml.plugin   DEBUG    load cached plugin info: EchartsEnvironment
+2018-11-14 12:21:35,307 pyecharts.engine.EnvironmentManager DEBUG    load None later
+2018-11-14 12:21:35,323 lml.plugin   DEBUG    caching DefaultChinaDataBank
+2018-11-14 12:21:35,323 lml.plugin   DEBUG    declare 'pyecharts_geo_data_bank' plugin manager
+2018-11-14 12:21:35,323 lml.plugin   DEBUG    load cached plugin info: DefaultChinaDataBank
+2018-11-14 12:21:35,323 pyecharts.datasets.coordinates.GeoDataBank DEBUG    load None later
+2018-11-14 12:21:35,351 root         DEBUG    Failed finding spec for pysqlite3
+2018-11-14 12:21:35,353 root         DEBUG    Failed finding spec for pysqlite2
+2018-11-14 12:21:35,362 root         DEBUG    Failed finding spec for psycopg2cffi
+2018-11-14 12:21:35,364 root         DEBUG    Failed finding spec for psycopg2
+2018-11-14 12:21:35,414 root         DEBUG    Loader for termios was unable to find the sources
+2018-11-14 12:21:35,455 root         DEBUG    Loader for babel was unable to find the sources
+2018-11-14 12:21:35,461 root         DEBUG    Loader for urllib2 was unable to find the sources
+2018-11-14 12:21:35,475 root         DEBUG    Loader for termcolor was unable to find the sources
+2018-11-14 12:21:35,478 root         DEBUG    Loader for SocketServer was unable to find the sources
+2018-11-14 12:21:35,647 werkzeug     WARNING   * Debugger is active!
+2018-11-14 12:21:35,656 werkzeug     INFO      * Debugger PIN: 355-357-977
+2018-11-14 12:21:35,658 root         DEBUG    Loader for watchdog was unable to find the sources
+2018-11-14 12:21:35,671 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-14 12:24:49,775 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:49] "GET / HTTP/1.1" 302 -
+2018-11-14 12:24:49,799 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:49] "GET /login?next=%2F HTTP/1.1" 200 -
+2018-11-14 12:24:49,826 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:49] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+2018-11-14 12:24:49,843 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:49] "GET /static/plugins/iCheck/square/blue.css HTTP/1.1" 304 -
+2018-11-14 12:24:49,844 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:49] "GET /static/plugins/adminlte/css/skins/skin-blue.min.css HTTP/1.1" 304 -
+2018-11-14 12:24:49,845 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:49] "GET /static/plugins/adminlte/css/AdminLTE.min.css HTTP/1.1" 304 -
+2018-11-14 12:24:49,845 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:49] "GET /static/plugins/pace/pace.min.css HTTP/1.1" 304 -
+2018-11-14 12:24:49,847 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:49] "GET /static/plugins/jQuery/jquery-2.2.3.min.js HTTP/1.1" 304 -
+2018-11-14 12:24:49,847 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:49] "GET /static/css/global.css HTTP/1.1" 304 -
+2018-11-14 12:24:49,852 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:49] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+2018-11-14 12:24:49,874 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:49] "GET /static/js/global.js HTTP/1.1" 304 -
+2018-11-14 12:24:49,874 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:49] "GET /static/plugins/iCheck/icheck.min.js HTTP/1.1" 304 -
+2018-11-14 12:24:49,874 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:49] "GET /static/plugins/pace/pace.min.js HTTP/1.1" 304 -
+2018-11-14 12:24:49,935 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:49] "GET /static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+2018-11-14 12:24:50,052 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:50] "GET /static/plugins/iCheck/square/blue.png HTTP/1.1" 304 -
+2018-11-14 12:24:50,218 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:50] "GET /favicon.ico HTTP/1.1" 404 -
+2018-11-14 12:24:51,256 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`username` = %s) LIMIT %s OFFSET %s', ['admin', 1, 0])
+2018-11-14 12:24:51,266 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:51] "POST /login?next=%2F HTTP/1.1" 302 -
+2018-11-14 12:24:51,276 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:24:51,289 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:51] "GET / HTTP/1.1" 302 -
+2018-11-14 12:24:51,294 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:24:51,304 pyecharts.engine.EnvironmentManager DEBUG    load <class 'pyecharts.engine.EchartsEnvironment'> now for 'html'
+2018-11-14 12:24:51,327 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:51] "GET /index HTTP/1.1" 200 -
+2018-11-14 12:24:51,358 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:51] "GET /static/plugins/bootstrap-slider/slider.css HTTP/1.1" 304 -
+2018-11-14 12:24:51,358 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:51] "GET /static/plugins/bootstrap-switch/bootstrap-switch.min.css HTTP/1.1" 304 -
+2018-11-14 12:24:51,359 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:51] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+2018-11-14 12:24:51,359 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:51] "GET /static/plugins/ionicons/css/ionicons.min.css HTTP/1.1" 304 -
+2018-11-14 12:24:51,360 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:51] "GET /static/plugins/adminlte/css/skins/skin-blue-light.css HTTP/1.1" 304 -
+2018-11-14 12:24:51,360 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:51] "GET /static/plugins/select2/select2.min.css HTTP/1.1" 304 -
+2018-11-14 12:24:51,365 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:24:51,367 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:51] "GET /static/js/echarts.min.js HTTP/1.1" 304 -
+2018-11-14 12:24:51,376 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:51] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 12:24:51,381 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:51] "GET /static/plugins/slimScroll/jquery.slimscroll.min.js HTTP/1.1" 304 -
+2018-11-14 12:24:51,382 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:51] "GET /static/images/19.jpg HTTP/1.1" 200 -
+2018-11-14 12:24:51,402 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:51] "GET /static/plugins/fastclick/fastclick.js HTTP/1.1" 304 -
+2018-11-14 12:24:51,403 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:51] "GET /static/plugins/bootstrap-slider/bootstrap-slider.js HTTP/1.1" 304 -
+2018-11-14 12:24:51,421 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:51] "GET /static/plugins/bootstrap-switch/bootstrap-switch.min.js HTTP/1.1" 304 -
+2018-11-14 12:24:51,422 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:51] "GET /static/plugins/select2/select2.full.min.js HTTP/1.1" 304 -
+2018-11-14 12:24:51,436 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:51] "GET /static/plugins/adminlte/js/app.min.js HTTP/1.1" 304 -
+2018-11-14 12:24:53,257 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:24:53,262 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:53] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 12:24:53,282 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:53] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 -
+2018-11-14 12:24:53,283 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:53] "GET /static/plugins/ionicons/fonts/ionicons.ttf?v=2.0.0 HTTP/1.1" 304 -
+2018-11-14 12:24:53,427 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:24:53,432 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:53] "GET /api/stats/summary HTTP/1.1" 404 -
+2018-11-14 12:24:58,797 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:24:58,814 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:58] "GET /notifyedit HTTP/1.1" 200 -
+2018-11-14 12:24:58,835 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:24:58,843 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:58] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 12:24:59,963 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:24:59,975 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `cfgnotify` AS `t1`) AS `_wrapped`', [])
+2018-11-14 12:24:59,978 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`check_order`, `t1`.`notify_type`, `t1`.`notify_name`, `t1`.`notify_number`, `t1`.`status` FROM `cfgnotify` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 12:24:59,990 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:24:59] "GET /notifylist HTTP/1.1" 200 -
+2018-11-14 12:25:00,011 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:25:00,022 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:25:00] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 12:29:26,004 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:29:26,011 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:29:26] "GET /notifyedit HTTP/1.1" 200 -
+2018-11-14 12:29:26,029 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:29:26,036 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:29:26] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 12:29:27,273 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:29:27,275 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `cfgnotify` AS `t1`) AS `_wrapped`', [])
+2018-11-14 12:29:27,276 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`check_order`, `t1`.`notify_type`, `t1`.`notify_name`, `t1`.`notify_number`, `t1`.`status` FROM `cfgnotify` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 12:29:27,280 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:29:27] "GET /notifylist HTTP/1.1" 200 -
+2018-11-14 12:29:27,305 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:29:27,312 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:29:27] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 12:29:27,934 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:29:27,947 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `cfgnotify` AS `t1`) AS `_wrapped`', [])
+2018-11-14 12:29:27,948 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`check_order`, `t1`.`notify_type`, `t1`.`notify_name`, `t1`.`notify_number`, `t1`.`status` FROM `cfgnotify` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 12:29:27,953 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:29:27] "GET /notifylist HTTP/1.1" 200 -
+2018-11-14 12:29:27,970 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:29:27,978 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:29:27] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 12:29:29,855 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:29:29,873 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:29:29] "GET /notifyedit HTTP/1.1" 200 -
+2018-11-14 12:29:29,884 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:29:29,893 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:29:29] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 12:29:30,855 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:29:30,858 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `cfgnotify` AS `t1`) AS `_wrapped`', [])
+2018-11-14 12:29:30,859 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`check_order`, `t1`.`notify_type`, `t1`.`notify_name`, `t1`.`notify_number`, `t1`.`status` FROM `cfgnotify` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 12:29:30,863 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:29:30] "GET /notifylist HTTP/1.1" 200 -
+2018-11-14 12:29:30,889 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:29:30,896 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:29:30] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 12:34:54,730 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:34:54,736 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:34:54] "GET /notifyedit HTTP/1.1" 200 -
+2018-11-14 12:34:54,762 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 12:34:54,772 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 12:34:54] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 16:35:15,536 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\hquotes.py
+2018-11-14 16:35:15,538 macropy.core.macros INFO     Finding macros in 'macropy.core.hquotes'
+2018-11-14 16:35:15,538 macropy.core.macros INFO     Importing macros from 'macropy.core.quotes' into 'macropy.core.hquotes'
+2018-11-14 16:35:15,538 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\quotes.py
+2018-11-14 16:35:15,540 macropy.core.macros INFO     Finding macros in 'macropy.core.quotes'
+2018-11-14 16:35:15,547 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 48
+2018-11-14 16:35:15,550 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 58
+2018-11-14 16:35:15,562 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\failure.py
+2018-11-14 16:35:15,562 macropy.core.macros INFO     Finding macros in 'macropy.core.failure'
+2018-11-14 16:35:15,562 macropy.core.macros INFO     Importing macros from 'macropy.core.hquotes' into 'macropy.core.failure'
+2018-11-14 16:35:15,566 macropy.core.macros DEBUG    Found macro 'hq', type 'Expr', line 29
+2018-11-14 16:35:15,591 lml.plugin   DEBUG    declare 'pyecharts_js_extension' plugin manager
+2018-11-14 16:35:15,591 lml.loader   DEBUG    scanning for plugins...
+2018-11-14 16:35:15,699 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 16:35:15,699 lml.utils    DEBUG    found echarts_china_cities_pypkg
+2018-11-14 16:35:15,705 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 16:35:15,706 lml.utils    DEBUG    found echarts_china_counties_pypkg
+2018-11-14 16:35:15,712 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 16:35:15,712 lml.utils    DEBUG    found echarts_china_misc_pypkg
+2018-11-14 16:35:15,719 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 16:35:15,719 lml.utils    DEBUG    found echarts_china_provinces_pypkg
+2018-11-14 16:35:15,726 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 16:35:15,726 lml.utils    DEBUG    found echarts_countries_pypkg
+2018-11-14 16:35:15,750 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 16:35:15,750 lml.utils    DEBUG    found jupyter_echarts_pypkg
+2018-11-14 16:35:15,757 lml.plugin.PluginInfoChain DEBUG    add pyecharts_snapshot.environment.SnapshotEnvironment as 'pyecharts_environment' plugin
+2018-11-14 16:35:15,757 lml.plugin   DEBUG    caching pyecharts_snapshot.environment.SnapshotEnvironment for pyecharts_environment
+2018-11-14 16:35:15,758 lml.utils    DEBUG    found pyecharts_snapshot
+2018-11-14 16:35:15,758 lml.loader   DEBUG    scanning done
+2018-11-14 16:35:15,774 lml.plugin   DEBUG    caching EchartsEnvironment
+2018-11-14 16:35:15,774 lml.plugin   DEBUG    declare 'pyecharts_environment' plugin manager
+2018-11-14 16:35:15,775 lml.plugin   DEBUG    load cached plugin info: pyecharts_snapshot.environment.SnapshotEnvironment
+2018-11-14 16:35:15,775 pyecharts.engine.EnvironmentManager DEBUG    load pyecharts_snapshot.environment.SnapshotEnvironment later
+2018-11-14 16:35:15,775 lml.plugin   DEBUG    load cached plugin info: EchartsEnvironment
+2018-11-14 16:35:15,775 pyecharts.engine.EnvironmentManager DEBUG    load None later
+2018-11-14 16:35:15,823 lml.plugin   DEBUG    caching DefaultChinaDataBank
+2018-11-14 16:35:15,824 lml.plugin   DEBUG    declare 'pyecharts_geo_data_bank' plugin manager
+2018-11-14 16:35:15,824 lml.plugin   DEBUG    load cached plugin info: DefaultChinaDataBank
+2018-11-14 16:35:15,824 pyecharts.datasets.coordinates.GeoDataBank DEBUG    load None later
+2018-11-14 16:35:15,904 root         DEBUG    Failed finding spec for pysqlite3
+2018-11-14 16:35:15,909 root         DEBUG    Failed finding spec for pysqlite2
+2018-11-14 16:35:15,943 root         DEBUG    Failed finding spec for psycopg2cffi
+2018-11-14 16:35:15,946 root         DEBUG    Failed finding spec for psycopg2
+2018-11-14 16:35:16,068 root         DEBUG    Loader for termios was unable to find the sources
+2018-11-14 16:35:16,156 root         DEBUG    Loader for babel was unable to find the sources
+2018-11-14 16:35:16,169 root         DEBUG    Loader for urllib2 was unable to find the sources
+2018-11-14 16:35:16,194 root         DEBUG    Loader for termcolor was unable to find the sources
+2018-11-14 16:35:16,198 root         DEBUG    Loader for SocketServer was unable to find the sources
+2018-11-14 16:35:16,554 root         DEBUG    Loader for watchdog was unable to find the sources
+2018-11-14 16:35:16,556 werkzeug     INFO      * Restarting with stat
+2018-11-14 16:35:17,600 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\hquotes.py
+2018-11-14 16:35:17,601 macropy.core.macros INFO     Finding macros in 'macropy.core.hquotes'
+2018-11-14 16:35:17,601 macropy.core.macros INFO     Importing macros from 'macropy.core.quotes' into 'macropy.core.hquotes'
+2018-11-14 16:35:17,602 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\quotes.py
+2018-11-14 16:35:17,602 macropy.core.macros INFO     Finding macros in 'macropy.core.quotes'
+2018-11-14 16:35:17,612 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 48
+2018-11-14 16:35:17,614 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 58
+2018-11-14 16:35:17,623 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\failure.py
+2018-11-14 16:35:17,624 macropy.core.macros INFO     Finding macros in 'macropy.core.failure'
+2018-11-14 16:35:17,624 macropy.core.macros INFO     Importing macros from 'macropy.core.hquotes' into 'macropy.core.failure'
+2018-11-14 16:35:17,627 macropy.core.macros DEBUG    Found macro 'hq', type 'Expr', line 29
+2018-11-14 16:35:17,643 lml.plugin   DEBUG    declare 'pyecharts_js_extension' plugin manager
+2018-11-14 16:35:17,643 lml.loader   DEBUG    scanning for plugins...
+2018-11-14 16:35:17,701 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 16:35:17,701 lml.utils    DEBUG    found echarts_china_cities_pypkg
+2018-11-14 16:35:17,706 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 16:35:17,707 lml.utils    DEBUG    found echarts_china_counties_pypkg
+2018-11-14 16:35:17,712 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 16:35:17,712 lml.utils    DEBUG    found echarts_china_misc_pypkg
+2018-11-14 16:35:17,717 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 16:35:17,717 lml.utils    DEBUG    found echarts_china_provinces_pypkg
+2018-11-14 16:35:17,723 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 16:35:17,723 lml.utils    DEBUG    found echarts_countries_pypkg
+2018-11-14 16:35:17,742 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 16:35:17,742 lml.utils    DEBUG    found jupyter_echarts_pypkg
+2018-11-14 16:35:17,746 lml.plugin.PluginInfoChain DEBUG    add pyecharts_snapshot.environment.SnapshotEnvironment as 'pyecharts_environment' plugin
+2018-11-14 16:35:17,746 lml.plugin   DEBUG    caching pyecharts_snapshot.environment.SnapshotEnvironment for pyecharts_environment
+2018-11-14 16:35:17,746 lml.utils    DEBUG    found pyecharts_snapshot
+2018-11-14 16:35:17,747 lml.loader   DEBUG    scanning done
+2018-11-14 16:35:17,756 lml.plugin   DEBUG    caching EchartsEnvironment
+2018-11-14 16:35:17,756 lml.plugin   DEBUG    declare 'pyecharts_environment' plugin manager
+2018-11-14 16:35:17,756 lml.plugin   DEBUG    load cached plugin info: pyecharts_snapshot.environment.SnapshotEnvironment
+2018-11-14 16:35:17,756 pyecharts.engine.EnvironmentManager DEBUG    load pyecharts_snapshot.environment.SnapshotEnvironment later
+2018-11-14 16:35:17,756 lml.plugin   DEBUG    load cached plugin info: EchartsEnvironment
+2018-11-14 16:35:17,756 pyecharts.engine.EnvironmentManager DEBUG    load None later
+2018-11-14 16:35:17,779 lml.plugin   DEBUG    caching DefaultChinaDataBank
+2018-11-14 16:35:17,779 lml.plugin   DEBUG    declare 'pyecharts_geo_data_bank' plugin manager
+2018-11-14 16:35:17,780 lml.plugin   DEBUG    load cached plugin info: DefaultChinaDataBank
+2018-11-14 16:35:17,780 pyecharts.datasets.coordinates.GeoDataBank DEBUG    load None later
+2018-11-14 16:35:17,835 root         DEBUG    Failed finding spec for pysqlite3
+2018-11-14 16:35:17,840 root         DEBUG    Failed finding spec for pysqlite2
+2018-11-14 16:35:17,854 root         DEBUG    Failed finding spec for psycopg2cffi
+2018-11-14 16:35:17,857 root         DEBUG    Failed finding spec for psycopg2
+2018-11-14 16:35:17,934 root         DEBUG    Loader for termios was unable to find the sources
+2018-11-14 16:35:17,988 root         DEBUG    Loader for babel was unable to find the sources
+2018-11-14 16:35:17,996 root         DEBUG    Loader for urllib2 was unable to find the sources
+2018-11-14 16:35:18,011 root         DEBUG    Loader for termcolor was unable to find the sources
+2018-11-14 16:35:18,014 root         DEBUG    Loader for SocketServer was unable to find the sources
+2018-11-14 16:35:18,298 werkzeug     WARNING   * Debugger is active!
+2018-11-14 16:35:18,326 werkzeug     INFO      * Debugger PIN: 355-357-977
+2018-11-14 16:35:18,335 root         DEBUG    Loader for watchdog was unable to find the sources
+2018-11-14 16:35:18,375 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-14 16:35:45,250 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:35:45] "GET / HTTP/1.1" 302 -
+2018-11-14 16:35:45,351 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:35:45] "GET /login?next=%2F HTTP/1.1" 200 -
+2018-11-14 16:35:45,815 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:35:45] "GET /favicon.ico HTTP/1.1" 404 -
+2018-11-14 16:35:55,382 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`username` = %s) LIMIT %s OFFSET %s', ['admin', 1, 0])
+2018-11-14 16:35:55,394 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:35:55] "POST /login?next=%2F HTTP/1.1" 302 -
+2018-11-14 16:35:55,399 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 16:35:55,402 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:35:55] "GET / HTTP/1.1" 302 -
+2018-11-14 16:35:55,408 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 16:35:55,432 pyecharts.engine.EnvironmentManager DEBUG    load <class 'pyecharts.engine.EchartsEnvironment'> now for 'html'
+2018-11-14 16:35:55,449 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:35:55] "GET /index HTTP/1.1" 200 -
+2018-11-14 16:35:55,481 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 16:35:55,493 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:35:55] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 16:35:56,879 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 16:35:56,913 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:35:56] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 16:35:57,646 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 16:35:57,684 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:35:57] "GET /api/stats/summary HTTP/1.1" 404 -
+2018-11-14 16:36:00,992 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 16:36:01,020 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:36:01] "GET /notifyedit HTTP/1.1" 200 -
+2018-11-14 16:36:01,052 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 16:36:01,070 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:36:01] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 16:36:48,886 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 16:36:48,900 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `cfgnotify` AS `t1`) AS `_wrapped`', [])
+2018-11-14 16:36:48,903 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`check_order`, `t1`.`notify_type`, `t1`.`notify_name`, `t1`.`notify_number`, `t1`.`status` FROM `cfgnotify` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 16:36:48,923 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:36:48] "GET /notifylist HTTP/1.1" 200 -
+2018-11-14 16:36:48,954 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 16:36:48,969 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:36:48] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 16:39:28,847 werkzeug     INFO      * Detected change in 'H:\\projectSCU\\twitter_project\\app\\models.py', reloading
+2018-11-14 16:39:28,908 werkzeug     INFO      * Restarting with stat
+2018-11-14 16:39:29,788 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\hquotes.py
+2018-11-14 16:39:29,790 macropy.core.macros INFO     Finding macros in 'macropy.core.hquotes'
+2018-11-14 16:39:29,790 macropy.core.macros INFO     Importing macros from 'macropy.core.quotes' into 'macropy.core.hquotes'
+2018-11-14 16:39:29,791 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\quotes.py
+2018-11-14 16:39:29,792 macropy.core.macros INFO     Finding macros in 'macropy.core.quotes'
+2018-11-14 16:39:29,803 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 48
+2018-11-14 16:39:29,805 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 58
+2018-11-14 16:39:29,814 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\failure.py
+2018-11-14 16:39:29,815 macropy.core.macros INFO     Finding macros in 'macropy.core.failure'
+2018-11-14 16:39:29,815 macropy.core.macros INFO     Importing macros from 'macropy.core.hquotes' into 'macropy.core.failure'
+2018-11-14 16:39:29,818 macropy.core.macros DEBUG    Found macro 'hq', type 'Expr', line 29
+2018-11-14 16:39:29,839 lml.plugin   DEBUG    declare 'pyecharts_js_extension' plugin manager
+2018-11-14 16:39:29,839 lml.loader   DEBUG    scanning for plugins...
+2018-11-14 16:39:29,916 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 16:39:29,916 lml.utils    DEBUG    found echarts_china_cities_pypkg
+2018-11-14 16:39:29,921 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 16:39:29,921 lml.utils    DEBUG    found echarts_china_counties_pypkg
+2018-11-14 16:39:29,927 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 16:39:29,927 lml.utils    DEBUG    found echarts_china_misc_pypkg
+2018-11-14 16:39:29,933 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 16:39:29,933 lml.utils    DEBUG    found echarts_china_provinces_pypkg
+2018-11-14 16:39:29,940 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 16:39:29,940 lml.utils    DEBUG    found echarts_countries_pypkg
+2018-11-14 16:39:29,959 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 16:39:29,959 lml.utils    DEBUG    found jupyter_echarts_pypkg
+2018-11-14 16:39:29,963 lml.plugin.PluginInfoChain DEBUG    add pyecharts_snapshot.environment.SnapshotEnvironment as 'pyecharts_environment' plugin
+2018-11-14 16:39:29,963 lml.plugin   DEBUG    caching pyecharts_snapshot.environment.SnapshotEnvironment for pyecharts_environment
+2018-11-14 16:39:29,963 lml.utils    DEBUG    found pyecharts_snapshot
+2018-11-14 16:39:29,963 lml.loader   DEBUG    scanning done
+2018-11-14 16:39:29,973 lml.plugin   DEBUG    caching EchartsEnvironment
+2018-11-14 16:39:29,974 lml.plugin   DEBUG    declare 'pyecharts_environment' plugin manager
+2018-11-14 16:39:29,974 lml.plugin   DEBUG    load cached plugin info: pyecharts_snapshot.environment.SnapshotEnvironment
+2018-11-14 16:39:29,974 pyecharts.engine.EnvironmentManager DEBUG    load pyecharts_snapshot.environment.SnapshotEnvironment later
+2018-11-14 16:39:29,974 lml.plugin   DEBUG    load cached plugin info: EchartsEnvironment
+2018-11-14 16:39:29,974 pyecharts.engine.EnvironmentManager DEBUG    load None later
+2018-11-14 16:39:29,999 lml.plugin   DEBUG    caching DefaultChinaDataBank
+2018-11-14 16:39:29,999 lml.plugin   DEBUG    declare 'pyecharts_geo_data_bank' plugin manager
+2018-11-14 16:39:29,999 lml.plugin   DEBUG    load cached plugin info: DefaultChinaDataBank
+2018-11-14 16:39:29,999 pyecharts.datasets.coordinates.GeoDataBank DEBUG    load None later
+2018-11-14 16:39:30,054 root         DEBUG    Failed finding spec for pysqlite3
+2018-11-14 16:39:30,057 root         DEBUG    Failed finding spec for pysqlite2
+2018-11-14 16:39:30,071 root         DEBUG    Failed finding spec for psycopg2cffi
+2018-11-14 16:39:30,075 root         DEBUG    Failed finding spec for psycopg2
+2018-11-14 16:39:30,152 root         DEBUG    Loader for termios was unable to find the sources
+2018-11-14 16:39:30,215 root         DEBUG    Loader for babel was unable to find the sources
+2018-11-14 16:39:30,226 root         DEBUG    Loader for urllib2 was unable to find the sources
+2018-11-14 16:39:30,243 root         DEBUG    Loader for termcolor was unable to find the sources
+2018-11-14 16:39:30,247 root         DEBUG    Loader for SocketServer was unable to find the sources
+2018-11-14 16:39:30,494 werkzeug     WARNING   * Debugger is active!
+2018-11-14 16:39:30,507 werkzeug     INFO      * Debugger PIN: 355-357-977
+2018-11-14 16:39:30,511 root         DEBUG    Loader for watchdog was unable to find the sources
+2018-11-14 16:39:30,528 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-14 16:41:36,307 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 16:41:36,310 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:41:36] "GET / HTTP/1.1" 302 -
+2018-11-14 16:41:36,320 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 16:41:36,335 pyecharts.engine.EnvironmentManager DEBUG    load <class 'pyecharts.engine.EchartsEnvironment'> now for 'html'
+2018-11-14 16:41:36,388 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:41:36] "GET /index HTTP/1.1" 200 -
+2018-11-14 16:41:36,438 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 16:41:36,454 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:41:36] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 16:41:36,602 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 16:41:36,612 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:41:36] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 16:41:36,905 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 16:41:36,922 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:41:36] "GET /api/stats/summary HTTP/1.1" 404 -
+2018-11-14 16:41:38,693 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 16:41:38,706 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `cfgnotify` AS `t1`) AS `_wrapped`', [])
+2018-11-14 16:41:38,709 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`check_order`, `t1`.`notify_type`, `t1`.`notify_name`, `t1`.`notify_number`, `t1`.`status` FROM `cfgnotify` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 16:41:38,735 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:41:38] "GET /notifylist HTTP/1.1" 200 -
+2018-11-14 16:41:38,762 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 16:41:38,773 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 16:41:38] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:00:23,269 werkzeug     INFO      * Detected change in 'H:\\projectSCU\\twitter_project\\app\\main\\views.py', reloading
+2018-11-14 17:00:23,339 werkzeug     INFO      * Restarting with stat
+2018-11-14 17:00:24,154 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\hquotes.py
+2018-11-14 17:00:24,155 macropy.core.macros INFO     Finding macros in 'macropy.core.hquotes'
+2018-11-14 17:00:24,155 macropy.core.macros INFO     Importing macros from 'macropy.core.quotes' into 'macropy.core.hquotes'
+2018-11-14 17:00:24,156 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\quotes.py
+2018-11-14 17:00:24,157 macropy.core.macros INFO     Finding macros in 'macropy.core.quotes'
+2018-11-14 17:00:24,169 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 48
+2018-11-14 17:00:24,172 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 58
+2018-11-14 17:00:24,187 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\failure.py
+2018-11-14 17:00:24,188 macropy.core.macros INFO     Finding macros in 'macropy.core.failure'
+2018-11-14 17:00:24,188 macropy.core.macros INFO     Importing macros from 'macropy.core.hquotes' into 'macropy.core.failure'
+2018-11-14 17:00:24,191 macropy.core.macros DEBUG    Found macro 'hq', type 'Expr', line 29
+2018-11-14 17:00:24,211 lml.plugin   DEBUG    declare 'pyecharts_js_extension' plugin manager
+2018-11-14 17:00:24,211 lml.loader   DEBUG    scanning for plugins...
+2018-11-14 17:00:24,285 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:00:24,285 lml.utils    DEBUG    found echarts_china_cities_pypkg
+2018-11-14 17:00:24,290 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:00:24,291 lml.utils    DEBUG    found echarts_china_counties_pypkg
+2018-11-14 17:00:24,297 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:00:24,297 lml.utils    DEBUG    found echarts_china_misc_pypkg
+2018-11-14 17:00:24,304 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:00:24,304 lml.utils    DEBUG    found echarts_china_provinces_pypkg
+2018-11-14 17:00:24,310 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:00:24,310 lml.utils    DEBUG    found echarts_countries_pypkg
+2018-11-14 17:00:24,330 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:00:24,330 lml.utils    DEBUG    found jupyter_echarts_pypkg
+2018-11-14 17:00:24,335 lml.plugin.PluginInfoChain DEBUG    add pyecharts_snapshot.environment.SnapshotEnvironment as 'pyecharts_environment' plugin
+2018-11-14 17:00:24,335 lml.plugin   DEBUG    caching pyecharts_snapshot.environment.SnapshotEnvironment for pyecharts_environment
+2018-11-14 17:00:24,336 lml.utils    DEBUG    found pyecharts_snapshot
+2018-11-14 17:00:24,336 lml.loader   DEBUG    scanning done
+2018-11-14 17:00:24,344 lml.plugin   DEBUG    caching EchartsEnvironment
+2018-11-14 17:00:24,344 lml.plugin   DEBUG    declare 'pyecharts_environment' plugin manager
+2018-11-14 17:00:24,344 lml.plugin   DEBUG    load cached plugin info: pyecharts_snapshot.environment.SnapshotEnvironment
+2018-11-14 17:00:24,344 pyecharts.engine.EnvironmentManager DEBUG    load pyecharts_snapshot.environment.SnapshotEnvironment later
+2018-11-14 17:00:24,345 lml.plugin   DEBUG    load cached plugin info: EchartsEnvironment
+2018-11-14 17:00:24,345 pyecharts.engine.EnvironmentManager DEBUG    load None later
+2018-11-14 17:00:24,374 lml.plugin   DEBUG    caching DefaultChinaDataBank
+2018-11-14 17:00:24,375 lml.plugin   DEBUG    declare 'pyecharts_geo_data_bank' plugin manager
+2018-11-14 17:00:24,375 lml.plugin   DEBUG    load cached plugin info: DefaultChinaDataBank
+2018-11-14 17:00:24,375 pyecharts.datasets.coordinates.GeoDataBank DEBUG    load None later
+2018-11-14 17:00:24,435 root         DEBUG    Failed finding spec for pysqlite3
+2018-11-14 17:00:24,439 root         DEBUG    Failed finding spec for pysqlite2
+2018-11-14 17:00:24,452 root         DEBUG    Failed finding spec for psycopg2cffi
+2018-11-14 17:00:24,456 root         DEBUG    Failed finding spec for psycopg2
+2018-11-14 17:00:24,533 root         DEBUG    Loader for termios was unable to find the sources
+2018-11-14 17:00:24,591 root         DEBUG    Loader for babel was unable to find the sources
+2018-11-14 17:00:24,600 root         DEBUG    Loader for urllib2 was unable to find the sources
+2018-11-14 17:12:11,246 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\hquotes.py
+2018-11-14 17:12:11,247 macropy.core.macros INFO     Finding macros in 'macropy.core.hquotes'
+2018-11-14 17:12:11,247 macropy.core.macros INFO     Importing macros from 'macropy.core.quotes' into 'macropy.core.hquotes'
+2018-11-14 17:12:11,248 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\quotes.py
+2018-11-14 17:12:11,249 macropy.core.macros INFO     Finding macros in 'macropy.core.quotes'
+2018-11-14 17:12:11,257 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 48
+2018-11-14 17:12:11,259 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 58
+2018-11-14 17:12:11,267 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\failure.py
+2018-11-14 17:12:11,267 macropy.core.macros INFO     Finding macros in 'macropy.core.failure'
+2018-11-14 17:12:11,268 macropy.core.macros INFO     Importing macros from 'macropy.core.hquotes' into 'macropy.core.failure'
+2018-11-14 17:12:11,270 macropy.core.macros DEBUG    Found macro 'hq', type 'Expr', line 29
+2018-11-14 17:12:11,286 lml.plugin   DEBUG    declare 'pyecharts_js_extension' plugin manager
+2018-11-14 17:12:11,286 lml.loader   DEBUG    scanning for plugins...
+2018-11-14 17:12:11,356 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:12:11,356 lml.utils    DEBUG    found echarts_china_cities_pypkg
+2018-11-14 17:12:11,363 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:12:11,364 lml.utils    DEBUG    found echarts_china_counties_pypkg
+2018-11-14 17:12:11,370 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:12:11,370 lml.utils    DEBUG    found echarts_china_misc_pypkg
+2018-11-14 17:12:11,376 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:12:11,376 lml.utils    DEBUG    found echarts_china_provinces_pypkg
+2018-11-14 17:12:11,381 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:12:11,381 lml.utils    DEBUG    found echarts_countries_pypkg
+2018-11-14 17:12:11,400 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:12:11,400 lml.utils    DEBUG    found jupyter_echarts_pypkg
+2018-11-14 17:12:11,404 lml.plugin.PluginInfoChain DEBUG    add pyecharts_snapshot.environment.SnapshotEnvironment as 'pyecharts_environment' plugin
+2018-11-14 17:12:11,404 lml.plugin   DEBUG    caching pyecharts_snapshot.environment.SnapshotEnvironment for pyecharts_environment
+2018-11-14 17:12:11,404 lml.utils    DEBUG    found pyecharts_snapshot
+2018-11-14 17:12:11,404 lml.loader   DEBUG    scanning done
+2018-11-14 17:12:11,411 lml.plugin   DEBUG    caching EchartsEnvironment
+2018-11-14 17:12:11,411 lml.plugin   DEBUG    declare 'pyecharts_environment' plugin manager
+2018-11-14 17:12:11,411 lml.plugin   DEBUG    load cached plugin info: pyecharts_snapshot.environment.SnapshotEnvironment
+2018-11-14 17:12:11,411 pyecharts.engine.EnvironmentManager DEBUG    load pyecharts_snapshot.environment.SnapshotEnvironment later
+2018-11-14 17:12:11,412 lml.plugin   DEBUG    load cached plugin info: EchartsEnvironment
+2018-11-14 17:12:11,412 pyecharts.engine.EnvironmentManager DEBUG    load None later
+2018-11-14 17:12:11,435 lml.plugin   DEBUG    caching DefaultChinaDataBank
+2018-11-14 17:12:11,435 lml.plugin   DEBUG    declare 'pyecharts_geo_data_bank' plugin manager
+2018-11-14 17:12:11,436 lml.plugin   DEBUG    load cached plugin info: DefaultChinaDataBank
+2018-11-14 17:12:11,436 pyecharts.datasets.coordinates.GeoDataBank DEBUG    load None later
+2018-11-14 17:12:11,489 root         DEBUG    Failed finding spec for pysqlite3
+2018-11-14 17:12:11,492 root         DEBUG    Failed finding spec for pysqlite2
+2018-11-14 17:12:11,505 root         DEBUG    Failed finding spec for psycopg2cffi
+2018-11-14 17:12:11,509 root         DEBUG    Failed finding spec for psycopg2
+2018-11-14 17:12:11,584 root         DEBUG    Loader for termios was unable to find the sources
+2018-11-14 17:12:11,645 root         DEBUG    Loader for babel was unable to find the sources
+2018-11-14 17:12:11,655 root         DEBUG    Loader for urllib2 was unable to find the sources
+2018-11-14 17:12:50,324 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\hquotes.py
+2018-11-14 17:12:50,326 macropy.core.macros INFO     Finding macros in 'macropy.core.hquotes'
+2018-11-14 17:12:50,326 macropy.core.macros INFO     Importing macros from 'macropy.core.quotes' into 'macropy.core.hquotes'
+2018-11-14 17:12:50,327 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\quotes.py
+2018-11-14 17:12:50,327 macropy.core.macros INFO     Finding macros in 'macropy.core.quotes'
+2018-11-14 17:12:50,336 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 48
+2018-11-14 17:12:50,338 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 58
+2018-11-14 17:12:50,348 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\failure.py
+2018-11-14 17:12:50,348 macropy.core.macros INFO     Finding macros in 'macropy.core.failure'
+2018-11-14 17:12:50,348 macropy.core.macros INFO     Importing macros from 'macropy.core.hquotes' into 'macropy.core.failure'
+2018-11-14 17:12:50,351 macropy.core.macros DEBUG    Found macro 'hq', type 'Expr', line 29
+2018-11-14 17:12:50,367 lml.plugin   DEBUG    declare 'pyecharts_js_extension' plugin manager
+2018-11-14 17:12:50,367 lml.loader   DEBUG    scanning for plugins...
+2018-11-14 17:12:50,429 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:12:50,429 lml.utils    DEBUG    found echarts_china_cities_pypkg
+2018-11-14 17:12:50,435 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:12:50,435 lml.utils    DEBUG    found echarts_china_counties_pypkg
+2018-11-14 17:12:50,442 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:12:50,442 lml.utils    DEBUG    found echarts_china_misc_pypkg
+2018-11-14 17:12:50,449 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:12:50,449 lml.utils    DEBUG    found echarts_china_provinces_pypkg
+2018-11-14 17:12:50,456 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:12:50,457 lml.utils    DEBUG    found echarts_countries_pypkg
+2018-11-14 17:12:50,475 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:12:50,475 lml.utils    DEBUG    found jupyter_echarts_pypkg
+2018-11-14 17:12:50,479 lml.plugin.PluginInfoChain DEBUG    add pyecharts_snapshot.environment.SnapshotEnvironment as 'pyecharts_environment' plugin
+2018-11-14 17:12:50,479 lml.plugin   DEBUG    caching pyecharts_snapshot.environment.SnapshotEnvironment for pyecharts_environment
+2018-11-14 17:12:50,480 lml.utils    DEBUG    found pyecharts_snapshot
+2018-11-14 17:12:50,480 lml.loader   DEBUG    scanning done
+2018-11-14 17:12:50,488 lml.plugin   DEBUG    caching EchartsEnvironment
+2018-11-14 17:12:50,488 lml.plugin   DEBUG    declare 'pyecharts_environment' plugin manager
+2018-11-14 17:12:50,488 lml.plugin   DEBUG    load cached plugin info: pyecharts_snapshot.environment.SnapshotEnvironment
+2018-11-14 17:12:50,488 pyecharts.engine.EnvironmentManager DEBUG    load pyecharts_snapshot.environment.SnapshotEnvironment later
+2018-11-14 17:12:50,488 lml.plugin   DEBUG    load cached plugin info: EchartsEnvironment
+2018-11-14 17:12:50,489 pyecharts.engine.EnvironmentManager DEBUG    load None later
+2018-11-14 17:12:50,518 lml.plugin   DEBUG    caching DefaultChinaDataBank
+2018-11-14 17:12:50,519 lml.plugin   DEBUG    declare 'pyecharts_geo_data_bank' plugin manager
+2018-11-14 17:12:50,519 lml.plugin   DEBUG    load cached plugin info: DefaultChinaDataBank
+2018-11-14 17:12:50,519 pyecharts.datasets.coordinates.GeoDataBank DEBUG    load None later
+2018-11-14 17:12:50,562 root         DEBUG    Failed finding spec for pysqlite3
+2018-11-14 17:12:50,566 root         DEBUG    Failed finding spec for pysqlite2
+2018-11-14 17:12:50,580 root         DEBUG    Failed finding spec for psycopg2cffi
+2018-11-14 17:12:50,583 root         DEBUG    Failed finding spec for psycopg2
+2018-11-14 17:12:50,657 root         DEBUG    Loader for termios was unable to find the sources
+2018-11-14 17:12:50,715 root         DEBUG    Loader for babel was unable to find the sources
+2018-11-14 17:12:50,724 root         DEBUG    Loader for urllib2 was unable to find the sources
+2018-11-14 17:12:50,741 root         DEBUG    Loader for termcolor was unable to find the sources
+2018-11-14 17:12:50,744 root         DEBUG    Loader for SocketServer was unable to find the sources
+2018-11-14 17:12:51,019 root         DEBUG    Loader for watchdog was unable to find the sources
+2018-11-14 17:12:51,020 werkzeug     INFO      * Restarting with stat
+2018-11-14 17:12:51,756 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\hquotes.py
+2018-11-14 17:12:51,757 macropy.core.macros INFO     Finding macros in 'macropy.core.hquotes'
+2018-11-14 17:12:51,757 macropy.core.macros INFO     Importing macros from 'macropy.core.quotes' into 'macropy.core.hquotes'
+2018-11-14 17:12:51,758 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\quotes.py
+2018-11-14 17:12:51,759 macropy.core.macros INFO     Finding macros in 'macropy.core.quotes'
+2018-11-14 17:12:51,766 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 48
+2018-11-14 17:12:51,768 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 58
+2018-11-14 17:12:51,776 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\failure.py
+2018-11-14 17:12:51,777 macropy.core.macros INFO     Finding macros in 'macropy.core.failure'
+2018-11-14 17:12:51,777 macropy.core.macros INFO     Importing macros from 'macropy.core.hquotes' into 'macropy.core.failure'
+2018-11-14 17:12:51,779 macropy.core.macros DEBUG    Found macro 'hq', type 'Expr', line 29
+2018-11-14 17:12:51,796 lml.plugin   DEBUG    declare 'pyecharts_js_extension' plugin manager
+2018-11-14 17:12:51,796 lml.loader   DEBUG    scanning for plugins...
+2018-11-14 17:12:51,859 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:12:51,859 lml.utils    DEBUG    found echarts_china_cities_pypkg
+2018-11-14 17:12:51,865 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:12:51,865 lml.utils    DEBUG    found echarts_china_counties_pypkg
+2018-11-14 17:12:51,871 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:12:51,872 lml.utils    DEBUG    found echarts_china_misc_pypkg
+2018-11-14 17:12:51,877 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:12:51,877 lml.utils    DEBUG    found echarts_china_provinces_pypkg
+2018-11-14 17:12:51,883 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:12:51,883 lml.utils    DEBUG    found echarts_countries_pypkg
+2018-11-14 17:12:51,901 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:12:51,901 lml.utils    DEBUG    found jupyter_echarts_pypkg
+2018-11-14 17:12:51,905 lml.plugin.PluginInfoChain DEBUG    add pyecharts_snapshot.environment.SnapshotEnvironment as 'pyecharts_environment' plugin
+2018-11-14 17:12:51,905 lml.plugin   DEBUG    caching pyecharts_snapshot.environment.SnapshotEnvironment for pyecharts_environment
+2018-11-14 17:12:51,905 lml.utils    DEBUG    found pyecharts_snapshot
+2018-11-14 17:12:51,905 lml.loader   DEBUG    scanning done
+2018-11-14 17:12:51,913 lml.plugin   DEBUG    caching EchartsEnvironment
+2018-11-14 17:12:51,913 lml.plugin   DEBUG    declare 'pyecharts_environment' plugin manager
+2018-11-14 17:12:51,914 lml.plugin   DEBUG    load cached plugin info: pyecharts_snapshot.environment.SnapshotEnvironment
+2018-11-14 17:12:51,914 pyecharts.engine.EnvironmentManager DEBUG    load pyecharts_snapshot.environment.SnapshotEnvironment later
+2018-11-14 17:12:51,914 lml.plugin   DEBUG    load cached plugin info: EchartsEnvironment
+2018-11-14 17:12:51,914 pyecharts.engine.EnvironmentManager DEBUG    load None later
+2018-11-14 17:12:51,937 lml.plugin   DEBUG    caching DefaultChinaDataBank
+2018-11-14 17:12:51,937 lml.plugin   DEBUG    declare 'pyecharts_geo_data_bank' plugin manager
+2018-11-14 17:12:51,937 lml.plugin   DEBUG    load cached plugin info: DefaultChinaDataBank
+2018-11-14 17:12:51,937 pyecharts.datasets.coordinates.GeoDataBank DEBUG    load None later
+2018-11-14 17:12:51,980 root         DEBUG    Failed finding spec for pysqlite3
+2018-11-14 17:12:51,983 root         DEBUG    Failed finding spec for pysqlite2
+2018-11-14 17:12:51,998 root         DEBUG    Failed finding spec for psycopg2cffi
+2018-11-14 17:12:52,003 root         DEBUG    Failed finding spec for psycopg2
+2018-11-14 17:12:52,085 root         DEBUG    Loader for termios was unable to find the sources
+2018-11-14 17:12:52,144 root         DEBUG    Loader for babel was unable to find the sources
+2018-11-14 17:12:52,154 root         DEBUG    Loader for urllib2 was unable to find the sources
+2018-11-14 17:12:52,168 root         DEBUG    Loader for termcolor was unable to find the sources
+2018-11-14 17:12:52,171 root         DEBUG    Loader for SocketServer was unable to find the sources
+2018-11-14 17:12:52,408 werkzeug     WARNING   * Debugger is active!
+2018-11-14 17:12:52,418 werkzeug     INFO      * Debugger PIN: 355-357-977
+2018-11-14 17:12:52,421 root         DEBUG    Loader for watchdog was unable to find the sources
+2018-11-14 17:12:52,436 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-14 17:12:54,265 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:12:54,270 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:12:54] "GET / HTTP/1.1" 302 -
+2018-11-14 17:12:54,317 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:12:54,333 pyecharts.engine.EnvironmentManager DEBUG    load <class 'pyecharts.engine.EchartsEnvironment'> now for 'html'
+2018-11-14 17:12:54,388 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:12:54] "GET /index HTTP/1.1" 200 -
+2018-11-14 17:12:54,415 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:12:54,432 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:12:54] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:12:55,223 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:12:55,230 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:12:55] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:12:55,482 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:12:55,487 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:12:55] "GET /api/stats/summary HTTP/1.1" 404 -
+2018-11-14 17:12:59,678 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:12:59,681 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `cfgnotify` AS `t1`) AS `_wrapped`', [])
+2018-11-14 17:12:59,684 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`check_order`, `t1`.`notify_type`, `t1`.`notify_name`, `t1`.`notify_number`, `t1`.`status` FROM `cfgnotify` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 17:12:59,707 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:12:59] "GET /notifylist HTTP/1.1" 200 -
+2018-11-14 17:12:59,731 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:12:59,739 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:12:59] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:13:11,297 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:13:11,300 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `cfgnotify` AS `t1`) AS `_wrapped`', [])
+2018-11-14 17:13:11,303 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`check_order`, `t1`.`notify_type`, `t1`.`notify_name`, `t1`.`notify_number`, `t1`.`status` FROM `cfgnotify` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 17:13:11,311 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:13:11] "GET /notifylist HTTP/1.1" 200 -
+2018-11-14 17:13:11,430 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:13:11,447 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:13:11] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:13:11,605 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:13:11,615 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:13:11] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:14:12,849 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:14:12,854 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `cfgnotify` AS `t1`) AS `_wrapped`', [])
+2018-11-14 17:14:12,857 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`check_order`, `t1`.`notify_type`, `t1`.`notify_name`, `t1`.`notify_number`, `t1`.`status` FROM `cfgnotify` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 17:14:12,914 root         DEBUG    Loader for __pypy__ was unable to find the sources
+2018-11-14 17:14:12,953 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:14:12] "GET /notifylist HTTP/1.1" 500 -
+2018-11-14 17:14:12,971 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:14:12] "GET /notifylist?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-14 17:14:12,981 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:14:12] "GET /notifylist?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-14 17:14:12,982 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:14:12] "GET /notifylist?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-14 17:14:13,063 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:14:13] "GET /notifylist?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-14 17:14:13,336 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:14:13] "GET /notifylist?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-14 17:14:34,865 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:14:34] "GET /notifylist?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-14 17:14:42,812 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:14:42,816 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `cfgnotify` AS `t1`) AS `_wrapped`', [])
+2018-11-14 17:14:42,818 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`check_order`, `t1`.`notify_type`, `t1`.`notify_name`, `t1`.`notify_number`, `t1`.`status` FROM `cfgnotify` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 17:14:42,866 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:14:42] "GET /notifylist HTTP/1.1" 200 -
+2018-11-14 17:14:42,900 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:14:42,911 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:14:42] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:14:42,975 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:14:42,983 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:14:42] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:14:45,165 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:14:45,180 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `twitter` AS `t1`) AS `_wrapped`', [])
+2018-11-14 17:14:45,182 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`user_name`, `t1`.`user_nick`, `t1`.`recent_active_time`, `t1`.`number_of_tweets` FROM `twitter` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 17:14:45,203 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:14:45] "GET /manage HTTP/1.1" 200 -
+2018-11-14 17:14:45,226 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:14:45,236 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:14:45] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:17:30,873 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:17:30,878 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `twitter` AS `t1`) AS `_wrapped`', [])
+2018-11-14 17:17:30,881 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`user_name`, `t1`.`user_nick`, `t1`.`recent_active_time`, `t1`.`number_of_tweets` FROM `twitter` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 17:17:30,916 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:17:30] "GET /manage HTTP/1.1" 200 -
+2018-11-14 17:17:30,939 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:17:30,950 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:17:30] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:17:36,426 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:17:36,429 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `cfgnotify` AS `t1`) AS `_wrapped`', [])
+2018-11-14 17:17:36,430 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`check_order`, `t1`.`notify_type`, `t1`.`notify_name`, `t1`.`notify_number`, `t1`.`status` FROM `cfgnotify` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 17:17:36,436 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:17:36] "GET /notifylist HTTP/1.1" 200 -
+2018-11-14 17:17:36,466 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:17:36,474 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:17:36] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:17:37,698 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:17:37,731 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:17:37] "GET /notifyedit HTTP/1.1" 200 -
+2018-11-14 17:17:37,748 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:17:37,756 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:17:37] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:18:05,090 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:18:05,093 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `cfgnotify` AS `t1`) AS `_wrapped`', [])
+2018-11-14 17:18:05,095 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`check_order`, `t1`.`notify_type`, `t1`.`notify_name`, `t1`.`notify_number`, `t1`.`status` FROM `cfgnotify` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 17:18:05,106 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:18:05] "GET /notifylist HTTP/1.1" 200 -
+2018-11-14 17:18:05,138 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:18:05,149 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:18:05] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:18:07,550 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:18:07,554 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `twitter` AS `t1`) AS `_wrapped`', [])
+2018-11-14 17:18:07,555 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`user_name`, `t1`.`user_nick`, `t1`.`recent_active_time`, `t1`.`number_of_tweets` FROM `twitter` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 17:18:07,565 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:18:07] "GET /manage HTTP/1.1" 200 -
+2018-11-14 17:18:07,591 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:18:07,600 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:18:07] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:18:10,843 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:18:10,855 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`user_name`, `t1`.`user_nick`, `t1`.`recent_active_time`, `t1`.`number_of_tweets` FROM `twitter` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:18:10,856 peewee       DEBUG    ('DELETE FROM `twitter` WHERE (`id` = %s)', [1])
+2018-11-14 17:18:10,858 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `twitter` AS `t1`) AS `_wrapped`', [])
+2018-11-14 17:18:10,859 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`user_name`, `t1`.`user_nick`, `t1`.`recent_active_time`, `t1`.`number_of_tweets` FROM `twitter` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 17:18:10,868 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:18:10] "GET /manage?action=del&id=1 HTTP/1.1" 200 -
+2018-11-14 17:18:10,894 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:18:10,901 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:18:10] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:18:28,832 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:18:28,835 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `cfgnotify` AS `t1`) AS `_wrapped`', [])
+2018-11-14 17:18:28,837 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`check_order`, `t1`.`notify_type`, `t1`.`notify_name`, `t1`.`notify_number`, `t1`.`status` FROM `cfgnotify` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 17:18:28,842 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:18:28] "GET /notifylist HTTP/1.1" 200 -
+2018-11-14 17:18:28,870 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:18:28,878 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:18:28] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:18:30,352 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:18:30,359 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:18:30] "GET /notifyedit HTTP/1.1" 200 -
+2018-11-14 17:18:30,391 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:18:30,400 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:18:30] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:20:16,227 werkzeug     INFO      * Detected change in 'H:\\projectSCU\\twitter_project\\app\\main\\views.py', reloading
+2018-11-14 17:20:16,284 werkzeug     INFO      * Restarting with stat
+2018-11-14 17:20:17,114 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\hquotes.py
+2018-11-14 17:20:17,116 macropy.core.macros INFO     Finding macros in 'macropy.core.hquotes'
+2018-11-14 17:20:17,116 macropy.core.macros INFO     Importing macros from 'macropy.core.quotes' into 'macropy.core.hquotes'
+2018-11-14 17:20:17,116 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\quotes.py
+2018-11-14 17:20:17,117 macropy.core.macros INFO     Finding macros in 'macropy.core.quotes'
+2018-11-14 17:20:17,126 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 48
+2018-11-14 17:20:17,128 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 58
+2018-11-14 17:20:17,139 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\failure.py
+2018-11-14 17:20:17,140 macropy.core.macros INFO     Finding macros in 'macropy.core.failure'
+2018-11-14 17:20:17,140 macropy.core.macros INFO     Importing macros from 'macropy.core.hquotes' into 'macropy.core.failure'
+2018-11-14 17:20:17,142 macropy.core.macros DEBUG    Found macro 'hq', type 'Expr', line 29
+2018-11-14 17:20:17,159 lml.plugin   DEBUG    declare 'pyecharts_js_extension' plugin manager
+2018-11-14 17:20:17,159 lml.loader   DEBUG    scanning for plugins...
+2018-11-14 17:20:17,230 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:20:17,230 lml.utils    DEBUG    found echarts_china_cities_pypkg
+2018-11-14 17:20:17,235 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:20:17,235 lml.utils    DEBUG    found echarts_china_counties_pypkg
+2018-11-14 17:20:17,241 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:20:17,241 lml.utils    DEBUG    found echarts_china_misc_pypkg
+2018-11-14 17:20:17,246 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:20:17,246 lml.utils    DEBUG    found echarts_china_provinces_pypkg
+2018-11-14 17:20:17,252 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:20:17,252 lml.utils    DEBUG    found echarts_countries_pypkg
+2018-11-14 17:20:17,270 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:20:17,270 lml.utils    DEBUG    found jupyter_echarts_pypkg
+2018-11-14 17:20:17,274 lml.plugin.PluginInfoChain DEBUG    add pyecharts_snapshot.environment.SnapshotEnvironment as 'pyecharts_environment' plugin
+2018-11-14 17:20:17,274 lml.plugin   DEBUG    caching pyecharts_snapshot.environment.SnapshotEnvironment for pyecharts_environment
+2018-11-14 17:20:17,274 lml.utils    DEBUG    found pyecharts_snapshot
+2018-11-14 17:20:17,274 lml.loader   DEBUG    scanning done
+2018-11-14 17:20:17,282 lml.plugin   DEBUG    caching EchartsEnvironment
+2018-11-14 17:20:17,283 lml.plugin   DEBUG    declare 'pyecharts_environment' plugin manager
+2018-11-14 17:20:17,283 lml.plugin   DEBUG    load cached plugin info: pyecharts_snapshot.environment.SnapshotEnvironment
+2018-11-14 17:20:17,283 pyecharts.engine.EnvironmentManager DEBUG    load pyecharts_snapshot.environment.SnapshotEnvironment later
+2018-11-14 17:20:17,283 lml.plugin   DEBUG    load cached plugin info: EchartsEnvironment
+2018-11-14 17:20:17,283 pyecharts.engine.EnvironmentManager DEBUG    load None later
+2018-11-14 17:20:17,309 lml.plugin   DEBUG    caching DefaultChinaDataBank
+2018-11-14 17:20:17,310 lml.plugin   DEBUG    declare 'pyecharts_geo_data_bank' plugin manager
+2018-11-14 17:20:17,310 lml.plugin   DEBUG    load cached plugin info: DefaultChinaDataBank
+2018-11-14 17:20:17,310 pyecharts.datasets.coordinates.GeoDataBank DEBUG    load None later
+2018-11-14 17:20:17,354 root         DEBUG    Failed finding spec for pysqlite3
+2018-11-14 17:20:17,357 root         DEBUG    Failed finding spec for pysqlite2
+2018-11-14 17:20:17,369 root         DEBUG    Failed finding spec for psycopg2cffi
+2018-11-14 17:20:17,372 root         DEBUG    Failed finding spec for psycopg2
+2018-11-14 17:20:17,444 root         DEBUG    Loader for termios was unable to find the sources
+2018-11-14 17:20:17,498 root         DEBUG    Loader for babel was unable to find the sources
+2018-11-14 17:20:17,506 root         DEBUG    Loader for urllib2 was unable to find the sources
+2018-11-14 17:35:37,041 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\hquotes.py
+2018-11-14 17:35:37,042 macropy.core.macros INFO     Finding macros in 'macropy.core.hquotes'
+2018-11-14 17:35:37,042 macropy.core.macros INFO     Importing macros from 'macropy.core.quotes' into 'macropy.core.hquotes'
+2018-11-14 17:35:37,043 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\quotes.py
+2018-11-14 17:35:37,044 macropy.core.macros INFO     Finding macros in 'macropy.core.quotes'
+2018-11-14 17:35:37,053 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 48
+2018-11-14 17:35:37,054 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 58
+2018-11-14 17:35:37,065 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\failure.py
+2018-11-14 17:35:37,065 macropy.core.macros INFO     Finding macros in 'macropy.core.failure'
+2018-11-14 17:35:37,065 macropy.core.macros INFO     Importing macros from 'macropy.core.hquotes' into 'macropy.core.failure'
+2018-11-14 17:35:37,068 macropy.core.macros DEBUG    Found macro 'hq', type 'Expr', line 29
+2018-11-14 17:35:37,087 lml.plugin   DEBUG    declare 'pyecharts_js_extension' plugin manager
+2018-11-14 17:35:37,087 lml.loader   DEBUG    scanning for plugins...
+2018-11-14 17:35:37,155 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:35:37,155 lml.utils    DEBUG    found echarts_china_cities_pypkg
+2018-11-14 17:35:37,161 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:35:37,161 lml.utils    DEBUG    found echarts_china_counties_pypkg
+2018-11-14 17:35:37,168 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:35:37,168 lml.utils    DEBUG    found echarts_china_misc_pypkg
+2018-11-14 17:35:37,174 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:35:37,175 lml.utils    DEBUG    found echarts_china_provinces_pypkg
+2018-11-14 17:35:37,181 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:35:37,182 lml.utils    DEBUG    found echarts_countries_pypkg
+2018-11-14 17:35:37,201 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:35:37,201 lml.utils    DEBUG    found jupyter_echarts_pypkg
+2018-11-14 17:35:37,205 lml.plugin.PluginInfoChain DEBUG    add pyecharts_snapshot.environment.SnapshotEnvironment as 'pyecharts_environment' plugin
+2018-11-14 17:35:37,205 lml.plugin   DEBUG    caching pyecharts_snapshot.environment.SnapshotEnvironment for pyecharts_environment
+2018-11-14 17:35:37,205 lml.utils    DEBUG    found pyecharts_snapshot
+2018-11-14 17:35:37,206 lml.loader   DEBUG    scanning done
+2018-11-14 17:35:37,214 lml.plugin   DEBUG    caching EchartsEnvironment
+2018-11-14 17:35:37,214 lml.plugin   DEBUG    declare 'pyecharts_environment' plugin manager
+2018-11-14 17:35:37,214 lml.plugin   DEBUG    load cached plugin info: pyecharts_snapshot.environment.SnapshotEnvironment
+2018-11-14 17:35:37,214 pyecharts.engine.EnvironmentManager DEBUG    load pyecharts_snapshot.environment.SnapshotEnvironment later
+2018-11-14 17:35:37,215 lml.plugin   DEBUG    load cached plugin info: EchartsEnvironment
+2018-11-14 17:35:37,215 pyecharts.engine.EnvironmentManager DEBUG    load None later
+2018-11-14 17:35:37,241 lml.plugin   DEBUG    caching DefaultChinaDataBank
+2018-11-14 17:35:37,242 lml.plugin   DEBUG    declare 'pyecharts_geo_data_bank' plugin manager
+2018-11-14 17:35:37,242 lml.plugin   DEBUG    load cached plugin info: DefaultChinaDataBank
+2018-11-14 17:35:37,242 pyecharts.datasets.coordinates.GeoDataBank DEBUG    load None later
+2018-11-14 17:35:37,296 root         DEBUG    Failed finding spec for pysqlite3
+2018-11-14 17:35:37,301 root         DEBUG    Failed finding spec for pysqlite2
+2018-11-14 17:35:37,316 root         DEBUG    Failed finding spec for psycopg2cffi
+2018-11-14 17:35:37,321 root         DEBUG    Failed finding spec for psycopg2
+2018-11-14 17:35:37,406 root         DEBUG    Loader for termios was unable to find the sources
+2018-11-14 17:35:37,469 root         DEBUG    Loader for babel was unable to find the sources
+2018-11-14 17:35:37,478 root         DEBUG    Loader for urllib2 was unable to find the sources
+2018-11-14 17:35:37,495 root         DEBUG    Loader for termcolor was unable to find the sources
+2018-11-14 17:35:37,498 root         DEBUG    Loader for SocketServer was unable to find the sources
+2018-11-14 17:35:37,780 root         DEBUG    Loader for watchdog was unable to find the sources
+2018-11-14 17:35:37,782 werkzeug     INFO      * Restarting with stat
+2018-11-14 17:35:38,613 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\hquotes.py
+2018-11-14 17:35:38,615 macropy.core.macros INFO     Finding macros in 'macropy.core.hquotes'
+2018-11-14 17:35:38,616 macropy.core.macros INFO     Importing macros from 'macropy.core.quotes' into 'macropy.core.hquotes'
+2018-11-14 17:35:38,618 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\quotes.py
+2018-11-14 17:35:38,619 macropy.core.macros INFO     Finding macros in 'macropy.core.quotes'
+2018-11-14 17:35:38,635 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 48
+2018-11-14 17:35:38,639 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 58
+2018-11-14 17:35:38,675 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\failure.py
+2018-11-14 17:35:38,675 macropy.core.macros INFO     Finding macros in 'macropy.core.failure'
+2018-11-14 17:35:38,676 macropy.core.macros INFO     Importing macros from 'macropy.core.hquotes' into 'macropy.core.failure'
+2018-11-14 17:35:38,682 macropy.core.macros DEBUG    Found macro 'hq', type 'Expr', line 29
+2018-11-14 17:35:38,709 lml.plugin   DEBUG    declare 'pyecharts_js_extension' plugin manager
+2018-11-14 17:35:38,710 lml.loader   DEBUG    scanning for plugins...
+2018-11-14 17:35:38,795 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:35:38,795 lml.utils    DEBUG    found echarts_china_cities_pypkg
+2018-11-14 17:35:38,802 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:35:38,803 lml.utils    DEBUG    found echarts_china_counties_pypkg
+2018-11-14 17:35:38,811 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:35:38,811 lml.utils    DEBUG    found echarts_china_misc_pypkg
+2018-11-14 17:35:38,817 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:35:38,818 lml.utils    DEBUG    found echarts_china_provinces_pypkg
+2018-11-14 17:35:38,823 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:35:38,824 lml.utils    DEBUG    found echarts_countries_pypkg
+2018-11-14 17:35:38,848 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:35:38,848 lml.utils    DEBUG    found jupyter_echarts_pypkg
+2018-11-14 17:35:38,853 lml.plugin.PluginInfoChain DEBUG    add pyecharts_snapshot.environment.SnapshotEnvironment as 'pyecharts_environment' plugin
+2018-11-14 17:35:38,853 lml.plugin   DEBUG    caching pyecharts_snapshot.environment.SnapshotEnvironment for pyecharts_environment
+2018-11-14 17:35:38,853 lml.utils    DEBUG    found pyecharts_snapshot
+2018-11-14 17:35:38,853 lml.loader   DEBUG    scanning done
+2018-11-14 17:35:38,863 lml.plugin   DEBUG    caching EchartsEnvironment
+2018-11-14 17:35:38,864 lml.plugin   DEBUG    declare 'pyecharts_environment' plugin manager
+2018-11-14 17:35:38,864 lml.plugin   DEBUG    load cached plugin info: pyecharts_snapshot.environment.SnapshotEnvironment
+2018-11-14 17:35:38,864 pyecharts.engine.EnvironmentManager DEBUG    load pyecharts_snapshot.environment.SnapshotEnvironment later
+2018-11-14 17:35:38,864 lml.plugin   DEBUG    load cached plugin info: EchartsEnvironment
+2018-11-14 17:35:38,864 pyecharts.engine.EnvironmentManager DEBUG    load None later
+2018-11-14 17:35:38,893 lml.plugin   DEBUG    caching DefaultChinaDataBank
+2018-11-14 17:35:38,894 lml.plugin   DEBUG    declare 'pyecharts_geo_data_bank' plugin manager
+2018-11-14 17:35:38,894 lml.plugin   DEBUG    load cached plugin info: DefaultChinaDataBank
+2018-11-14 17:35:38,894 pyecharts.datasets.coordinates.GeoDataBank DEBUG    load None later
+2018-11-14 17:35:38,944 root         DEBUG    Failed finding spec for pysqlite3
+2018-11-14 17:35:38,948 root         DEBUG    Failed finding spec for pysqlite2
+2018-11-14 17:35:38,964 root         DEBUG    Failed finding spec for psycopg2cffi
+2018-11-14 17:35:38,968 root         DEBUG    Failed finding spec for psycopg2
+2018-11-14 17:35:39,046 root         DEBUG    Loader for termios was unable to find the sources
+2018-11-14 17:35:39,110 root         DEBUG    Loader for babel was unable to find the sources
+2018-11-14 17:35:39,119 root         DEBUG    Loader for urllib2 was unable to find the sources
+2018-11-14 17:35:39,136 root         DEBUG    Loader for termcolor was unable to find the sources
+2018-11-14 17:35:39,139 root         DEBUG    Loader for SocketServer was unable to find the sources
+2018-11-14 17:35:39,394 werkzeug     WARNING   * Debugger is active!
+2018-11-14 17:35:39,402 werkzeug     INFO      * Debugger PIN: 355-357-977
+2018-11-14 17:35:39,406 root         DEBUG    Loader for watchdog was unable to find the sources
+2018-11-14 17:35:39,433 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-14 17:35:46,713 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:35:46,720 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:35:46] "GET / HTTP/1.1" 302 -
+2018-11-14 17:35:46,789 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:35:46,810 pyecharts.engine.EnvironmentManager DEBUG    load <class 'pyecharts.engine.EchartsEnvironment'> now for 'html'
+2018-11-14 17:35:46,900 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:35:46] "GET /index HTTP/1.1" 200 -
+2018-11-14 17:35:46,940 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:35:46,961 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:35:46] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:35:48,158 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:35:48,174 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:35:48] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:35:49,076 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:35:49,084 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:35:49] "GET /api/stats/summary HTTP/1.1" 404 -
+2018-11-14 17:35:58,759 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:35:58,782 root         DEBUG    Loader for __pypy__ was unable to find the sources
+2018-11-14 17:35:58,806 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:35:58] "GET /adduser HTTP/1.1" 500 -
+2018-11-14 17:35:58,824 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:35:58] "GET /adduser?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-14 17:35:58,825 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:35:58] "GET /adduser?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-14 17:35:58,825 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:35:58] "GET /adduser?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-14 17:35:58,867 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:35:58] "GET /adduser?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-14 17:35:59,019 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:35:59] "GET /adduser?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-14 17:35:59,096 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:35:59] "GET /adduser?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-14 17:36:18,984 werkzeug     INFO      * Detected change in 'H:\\projectSCU\\twitter_project\\app\\main\\forms.py', reloading
+2018-11-14 17:36:19,047 werkzeug     INFO      * Restarting with stat
+2018-11-14 17:36:20,213 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\hquotes.py
+2018-11-14 17:36:20,215 macropy.core.macros INFO     Finding macros in 'macropy.core.hquotes'
+2018-11-14 17:36:20,215 macropy.core.macros INFO     Importing macros from 'macropy.core.quotes' into 'macropy.core.hquotes'
+2018-11-14 17:36:20,215 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\quotes.py
+2018-11-14 17:36:20,217 macropy.core.macros INFO     Finding macros in 'macropy.core.quotes'
+2018-11-14 17:36:20,225 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 48
+2018-11-14 17:36:20,227 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 58
+2018-11-14 17:36:20,237 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\failure.py
+2018-11-14 17:36:20,237 macropy.core.macros INFO     Finding macros in 'macropy.core.failure'
+2018-11-14 17:36:20,237 macropy.core.macros INFO     Importing macros from 'macropy.core.hquotes' into 'macropy.core.failure'
+2018-11-14 17:36:20,240 macropy.core.macros DEBUG    Found macro 'hq', type 'Expr', line 29
+2018-11-14 17:36:20,258 lml.plugin   DEBUG    declare 'pyecharts_js_extension' plugin manager
+2018-11-14 17:36:20,258 lml.loader   DEBUG    scanning for plugins...
+2018-11-14 17:36:20,322 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:36:20,322 lml.utils    DEBUG    found echarts_china_cities_pypkg
+2018-11-14 17:36:20,328 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:36:20,328 lml.utils    DEBUG    found echarts_china_counties_pypkg
+2018-11-14 17:36:20,334 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:36:20,335 lml.utils    DEBUG    found echarts_china_misc_pypkg
+2018-11-14 17:36:20,340 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:36:20,340 lml.utils    DEBUG    found echarts_china_provinces_pypkg
+2018-11-14 17:36:20,347 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:36:20,347 lml.utils    DEBUG    found echarts_countries_pypkg
+2018-11-14 17:36:20,365 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:36:20,365 lml.utils    DEBUG    found jupyter_echarts_pypkg
+2018-11-14 17:36:20,369 lml.plugin.PluginInfoChain DEBUG    add pyecharts_snapshot.environment.SnapshotEnvironment as 'pyecharts_environment' plugin
+2018-11-14 17:36:20,369 lml.plugin   DEBUG    caching pyecharts_snapshot.environment.SnapshotEnvironment for pyecharts_environment
+2018-11-14 17:36:20,369 lml.utils    DEBUG    found pyecharts_snapshot
+2018-11-14 17:36:20,369 lml.loader   DEBUG    scanning done
+2018-11-14 17:36:20,377 lml.plugin   DEBUG    caching EchartsEnvironment
+2018-11-14 17:36:20,377 lml.plugin   DEBUG    declare 'pyecharts_environment' plugin manager
+2018-11-14 17:36:20,377 lml.plugin   DEBUG    load cached plugin info: pyecharts_snapshot.environment.SnapshotEnvironment
+2018-11-14 17:36:20,377 pyecharts.engine.EnvironmentManager DEBUG    load pyecharts_snapshot.environment.SnapshotEnvironment later
+2018-11-14 17:36:20,377 lml.plugin   DEBUG    load cached plugin info: EchartsEnvironment
+2018-11-14 17:36:20,377 pyecharts.engine.EnvironmentManager DEBUG    load None later
+2018-11-14 17:36:20,400 lml.plugin   DEBUG    caching DefaultChinaDataBank
+2018-11-14 17:36:20,400 lml.plugin   DEBUG    declare 'pyecharts_geo_data_bank' plugin manager
+2018-11-14 17:36:20,400 lml.plugin   DEBUG    load cached plugin info: DefaultChinaDataBank
+2018-11-14 17:36:20,401 pyecharts.datasets.coordinates.GeoDataBank DEBUG    load None later
+2018-11-14 17:36:20,445 root         DEBUG    Failed finding spec for pysqlite3
+2018-11-14 17:36:20,448 root         DEBUG    Failed finding spec for pysqlite2
+2018-11-14 17:36:20,460 root         DEBUG    Failed finding spec for psycopg2cffi
+2018-11-14 17:36:20,463 root         DEBUG    Failed finding spec for psycopg2
+2018-11-14 17:36:20,535 root         DEBUG    Loader for termios was unable to find the sources
+2018-11-14 17:36:20,594 root         DEBUG    Loader for babel was unable to find the sources
+2018-11-14 17:36:20,604 root         DEBUG    Loader for urllib2 was unable to find the sources
+2018-11-14 17:36:20,621 root         DEBUG    Loader for termcolor was unable to find the sources
+2018-11-14 17:36:20,624 root         DEBUG    Loader for SocketServer was unable to find the sources
+2018-11-14 17:36:20,875 werkzeug     WARNING   * Debugger is active!
+2018-11-14 17:36:20,885 werkzeug     INFO      * Debugger PIN: 355-357-977
+2018-11-14 17:36:20,888 root         DEBUG    Loader for watchdog was unable to find the sources
+2018-11-14 17:36:20,916 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-14 17:36:21,032 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:36:21,081 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:36:21] "GET /adduser HTTP/1.1" 200 -
+2018-11-14 17:36:21,108 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:36:21,133 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:36:21] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:36:59,707 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:36:59,724 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:36:59] "POST /adduser HTTP/1.1" 200 -
+2018-11-14 17:36:59,749 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:36:59,758 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:36:59] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:37:10,687 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:37:10,704 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:37:10] "POST /adduser HTTP/1.1" 200 -
+2018-11-14 17:37:10,736 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:37:10,747 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:37:10] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:37:42,751 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:37:42,760 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:37:42] "POST /adduser HTTP/1.1" 200 -
+2018-11-14 17:37:42,800 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:37:42,808 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:37:42] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:38:58,961 werkzeug     INFO      * Detected change in 'H:\\projectSCU\\twitter_project\\app\\main\\forms.py', reloading
+2018-11-14 17:38:59,016 werkzeug     INFO      * Restarting with stat
+2018-11-14 17:38:59,792 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\hquotes.py
+2018-11-14 17:38:59,794 macropy.core.macros INFO     Finding macros in 'macropy.core.hquotes'
+2018-11-14 17:38:59,794 macropy.core.macros INFO     Importing macros from 'macropy.core.quotes' into 'macropy.core.hquotes'
+2018-11-14 17:38:59,794 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\quotes.py
+2018-11-14 17:38:59,796 macropy.core.macros INFO     Finding macros in 'macropy.core.quotes'
+2018-11-14 17:38:59,805 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 48
+2018-11-14 17:38:59,807 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 58
+2018-11-14 17:38:59,818 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\failure.py
+2018-11-14 17:38:59,818 macropy.core.macros INFO     Finding macros in 'macropy.core.failure'
+2018-11-14 17:38:59,818 macropy.core.macros INFO     Importing macros from 'macropy.core.hquotes' into 'macropy.core.failure'
+2018-11-14 17:38:59,821 macropy.core.macros DEBUG    Found macro 'hq', type 'Expr', line 29
+2018-11-14 17:38:59,842 lml.plugin   DEBUG    declare 'pyecharts_js_extension' plugin manager
+2018-11-14 17:38:59,842 lml.loader   DEBUG    scanning for plugins...
+2018-11-14 17:38:59,909 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:38:59,910 lml.utils    DEBUG    found echarts_china_cities_pypkg
+2018-11-14 17:38:59,916 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:38:59,916 lml.utils    DEBUG    found echarts_china_counties_pypkg
+2018-11-14 17:38:59,923 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:38:59,923 lml.utils    DEBUG    found echarts_china_misc_pypkg
+2018-11-14 17:38:59,932 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:38:59,932 lml.utils    DEBUG    found echarts_china_provinces_pypkg
+2018-11-14 17:38:59,940 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:38:59,941 lml.utils    DEBUG    found echarts_countries_pypkg
+2018-11-14 17:38:59,966 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:38:59,966 lml.utils    DEBUG    found jupyter_echarts_pypkg
+2018-11-14 17:38:59,970 lml.plugin.PluginInfoChain DEBUG    add pyecharts_snapshot.environment.SnapshotEnvironment as 'pyecharts_environment' plugin
+2018-11-14 17:38:59,970 lml.plugin   DEBUG    caching pyecharts_snapshot.environment.SnapshotEnvironment for pyecharts_environment
+2018-11-14 17:38:59,970 lml.utils    DEBUG    found pyecharts_snapshot
+2018-11-14 17:38:59,970 lml.loader   DEBUG    scanning done
+2018-11-14 17:38:59,978 lml.plugin   DEBUG    caching EchartsEnvironment
+2018-11-14 17:38:59,979 lml.plugin   DEBUG    declare 'pyecharts_environment' plugin manager
+2018-11-14 17:38:59,979 lml.plugin   DEBUG    load cached plugin info: pyecharts_snapshot.environment.SnapshotEnvironment
+2018-11-14 17:38:59,979 pyecharts.engine.EnvironmentManager DEBUG    load pyecharts_snapshot.environment.SnapshotEnvironment later
+2018-11-14 17:38:59,979 lml.plugin   DEBUG    load cached plugin info: EchartsEnvironment
+2018-11-14 17:38:59,979 pyecharts.engine.EnvironmentManager DEBUG    load None later
+2018-11-14 17:39:00,006 lml.plugin   DEBUG    caching DefaultChinaDataBank
+2018-11-14 17:39:00,006 lml.plugin   DEBUG    declare 'pyecharts_geo_data_bank' plugin manager
+2018-11-14 17:39:00,007 lml.plugin   DEBUG    load cached plugin info: DefaultChinaDataBank
+2018-11-14 17:39:00,007 pyecharts.datasets.coordinates.GeoDataBank DEBUG    load None later
+2018-11-14 17:39:00,057 root         DEBUG    Failed finding spec for pysqlite3
+2018-11-14 17:39:00,060 root         DEBUG    Failed finding spec for pysqlite2
+2018-11-14 17:39:00,074 root         DEBUG    Failed finding spec for psycopg2cffi
+2018-11-14 17:39:00,077 root         DEBUG    Failed finding spec for psycopg2
+2018-11-14 17:39:00,149 root         DEBUG    Loader for termios was unable to find the sources
+2018-11-14 17:39:00,206 root         DEBUG    Loader for babel was unable to find the sources
+2018-11-14 17:39:00,215 root         DEBUG    Loader for urllib2 was unable to find the sources
+2018-11-14 17:39:00,231 root         DEBUG    Loader for termcolor was unable to find the sources
+2018-11-14 17:39:00,235 root         DEBUG    Loader for SocketServer was unable to find the sources
+2018-11-14 17:39:00,481 werkzeug     WARNING   * Debugger is active!
+2018-11-14 17:39:00,490 werkzeug     INFO      * Debugger PIN: 355-357-977
+2018-11-14 17:39:00,493 root         DEBUG    Loader for watchdog was unable to find the sources
+2018-11-14 17:39:00,518 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-11-14 17:39:03,281 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:39:03,289 peewee       DEBUG    ('INSERT INTO `twitter` (`user_name`, `user_nick`, `recent_active_time`, `number_of_tweets`) VALUES (%s, %s, %s, %s)', ['daiwei', 'shuaigege', 'Tue Dec 06 09:29:31 +0000 2016', ''])
+2018-11-14 17:39:03,332 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:39:03] "POST /adduser HTTP/1.1" 200 -
+2018-11-14 17:39:03,361 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:39:03,377 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:39:03] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:40:00,756 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:40:00,760 peewee       DEBUG    ('INSERT INTO `twitter` (`user_name`, `user_nick`, `recent_active_time`, `number_of_tweets`) VALUES (%s, %s, %s, %s)', ['daiwei', 'shuaigege', 'Tue Dec 06 09:29:31 +0000 2016', ''])
+2018-11-14 17:40:00,777 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:40:00] "POST /adduser HTTP/1.1" 200 -
+2018-11-14 17:40:00,804 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:40:00,814 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:40:00] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:40:06,745 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:40:06,749 peewee       DEBUG    ('INSERT INTO `twitter` (`user_name`, `user_nick`, `recent_active_time`, `number_of_tweets`) VALUES (%s, %s, %s, %s)', ['daiwei', 'shuaigege', 'Tue Dec 06 09:29:31 +0000 2016', '12'])
+2018-11-14 17:40:06,756 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:40:06] "POST /adduser HTTP/1.1" 200 -
+2018-11-14 17:40:06,782 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:40:06,790 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:40:06] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:40:45,307 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:40:45,311 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `cfgnotify` AS `t1`) AS `_wrapped`', [])
+2018-11-14 17:40:45,314 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`check_order`, `t1`.`notify_type`, `t1`.`notify_name`, `t1`.`notify_number`, `t1`.`status` FROM `cfgnotify` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 17:40:45,338 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:40:45] "GET /notifylist HTTP/1.1" 200 -
+2018-11-14 17:40:45,362 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:40:45,372 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:40:45] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:40:46,649 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:40:46,654 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `twitter` AS `t1`) AS `_wrapped`', [])
+2018-11-14 17:40:46,656 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`user_name`, `t1`.`user_nick`, `t1`.`recent_active_time`, `t1`.`number_of_tweets` FROM `twitter` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 17:40:46,681 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:40:46] "GET /manage HTTP/1.1" 200 -
+2018-11-14 17:40:46,700 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:40:46,709 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:40:46] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:40:47,667 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:40:47,676 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:40:47] "GET /adduser HTTP/1.1" 200 -
+2018-11-14 17:40:47,697 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:40:47,704 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:40:47] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:40:50,448 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:40:50,452 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `cfgnotify` AS `t1`) AS `_wrapped`', [])
+2018-11-14 17:40:50,454 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`check_order`, `t1`.`notify_type`, `t1`.`notify_name`, `t1`.`notify_number`, `t1`.`status` FROM `cfgnotify` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 17:40:50,462 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:40:50] "GET /notifylist HTTP/1.1" 200 -
+2018-11-14 17:40:50,482 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:40:50,489 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:40:50] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:40:57,462 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:40:57,466 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `twitter` AS `t1`) AS `_wrapped`', [])
+2018-11-14 17:40:57,467 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`user_name`, `t1`.`user_nick`, `t1`.`recent_active_time`, `t1`.`number_of_tweets` FROM `twitter` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 17:40:57,476 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:40:57] "GET /manage HTTP/1.1" 200 -
+2018-11-14 17:40:57,508 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:40:57,518 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:40:57] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:40:58,357 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:40:58,372 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `cfgnotify` AS `t1`) AS `_wrapped`', [])
+2018-11-14 17:40:58,373 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`check_order`, `t1`.`notify_type`, `t1`.`notify_name`, `t1`.`notify_number`, `t1`.`status` FROM `cfgnotify` AS `t1` LIMIT %s OFFSET %s', [10, 0])
+2018-11-14 17:40:58,380 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:40:58] "GET /notifylist HTTP/1.1" 200 -
+2018-11-14 17:40:58,397 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:40:58,406 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:40:58] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:40:59,588 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:40:59,609 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:40:59] "GET /adduser HTTP/1.1" 200 -
+2018-11-14 17:40:59,624 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2018-11-14 17:40:59,635 werkzeug     INFO     127.0.0.1 - - [14/Nov/2018 17:40:59] "GET /static/js/echarts.js HTTP/1.1" 404 -
+2018-11-14 17:41:29,896 werkzeug     INFO      * Detected change in 'H:\\projectSCU\\twitter_project\\app\\main\\views.py', reloading
+2018-11-14 17:41:29,959 werkzeug     INFO      * Restarting with stat
+2018-11-14 17:41:30,728 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\hquotes.py
+2018-11-14 17:41:30,729 macropy.core.macros INFO     Finding macros in 'macropy.core.hquotes'
+2018-11-14 17:41:30,729 macropy.core.macros INFO     Importing macros from 'macropy.core.quotes' into 'macropy.core.hquotes'
+2018-11-14 17:41:30,731 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\quotes.py
+2018-11-14 17:41:30,731 macropy.core.macros INFO     Finding macros in 'macropy.core.quotes'
+2018-11-14 17:41:30,739 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 48
+2018-11-14 17:41:30,740 macropy.core.macros DEBUG    Found macro 'q', type 'Block', line 58
+2018-11-14 17:41:30,748 macropy.core.import_hooks INFO     Expand macros in H:\projectSCU\twitter_project\venv\lib\site-packages\macropy\core\failure.py
+2018-11-14 17:41:30,749 macropy.core.macros INFO     Finding macros in 'macropy.core.failure'
+2018-11-14 17:41:30,749 macropy.core.macros INFO     Importing macros from 'macropy.core.hquotes' into 'macropy.core.failure'
+2018-11-14 17:41:30,752 macropy.core.macros DEBUG    Found macro 'hq', type 'Expr', line 29
+2018-11-14 17:41:30,770 lml.plugin   DEBUG    declare 'pyecharts_js_extension' plugin manager
+2018-11-14 17:41:30,771 lml.loader   DEBUG    scanning for plugins...
+2018-11-14 17:41:30,830 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:41:30,830 lml.utils    DEBUG    found echarts_china_cities_pypkg
+2018-11-14 17:41:30,835 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:41:30,836 lml.utils    DEBUG    found echarts_china_counties_pypkg
+2018-11-14 17:41:30,841 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:41:30,841 lml.utils    DEBUG    found echarts_china_misc_pypkg
+2018-11-14 17:41:30,846 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:41:30,847 lml.utils    DEBUG    found echarts_china_provinces_pypkg
+2018-11-14 17:41:30,852 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:41:30,852 lml.utils    DEBUG    found echarts_countries_pypkg
+2018-11-14 17:41:30,874 pyecharts.js_extensions.JsExtensionManager DEBUG    register Pypkg
+2018-11-14 17:41:30,874 lml.utils    DEBUG    found jupyter_echarts_pypkg
+2018-11-14 17:41:30,879 lml.plugin.PluginInfoChain DEBUG    add pyecharts_snapshot.environment.SnapshotEnvironment as 'pyecharts_environment' plugin
+2018-11-14 17:41:30,880 lml.plugin   DEBUG    caching pyecharts_snapshot.environment.SnapshotEnvironment for pyecharts_environment
+2018-11-14 17:41:30,880 lml.utils    DEBUG    found pyecharts_snapshot
+2018-11-14 17:41:30,880 lml.loader   DEBUG    scanning done
+2018-11-14 17:41:30,888 lml.plugin   DEBUG    caching EchartsEnvironment
+2018-11-14 17:41:30,888 lml.plugin   DEBUG    declare 'pyecharts_environment' plugin manager
+2018-11-14 17:41:30,888 lml.plugin   DEBUG    load cached plugin info: pyecharts_snapshot.environment.SnapshotEnvironment
+2018-11-14 17:41:30,888 pyecharts.engine.EnvironmentManager DEBUG    load pyecharts_snapshot.environment.SnapshotEnvironment later
+2018-11-14 17:41:30,888 lml.plugin   DEBUG    load cached plugin info: EchartsEnvironment
+2018-11-14 17:41:30,888 pyecharts.engine.EnvironmentManager DEBUG    load None later
+2018-11-14 17:41:30,913 lml.plugin   DEBUG    caching DefaultChinaDataBank
+2018-11-14 17:41:30,914 lml.plugin   DEBUG    declare 'pyecharts_geo_data_bank' plugin manager
+2018-11-14 17:41:30,914 lml.plugin   DEBUG    load cached plugin info: DefaultChinaDataBank
+2018-11-14 17:41:30,914 pyecharts.datasets.coordinates.GeoDataBank DEBUG    load None later
+2018-11-14 17:41:30,956 root         DEBUG    Failed finding spec for pysqlite3
+2018-11-14 17:41:30,959 root         DEBUG    Failed finding spec for pysqlite2
+2018-11-14 17:41:30,972 root         DEBUG    Failed finding spec for psycopg2cffi
+2018-11-14 17:41:30,975 root         DEBUG    Failed finding spec for psycopg2
+2018-11-14 17:41:31,053 root         DEBUG    Loader for termios was unable to find the sources
+2018-11-14 17:41:31,120 root         DEBUG    Loader for babel was unable to find the sources
+2018-11-14 17:41:31,130 root         DEBUG    Loader for urllib2 was unable to find the sources
+2018-11-14 17:41:31,146 root         DEBUG    Loader for termcolor was unable to find the sources
+2018-11-14 17:41:31,150 root         DEBUG    Loader for SocketServer was unable to find the sources
+2018-11-14 17:41:31,425 werkzeug     WARNING   * Debugger is active!
+2018-11-14 17:41:31,436 werkzeug     INFO      * Debugger PIN: 355-357-977
+2018-11-14 17:41:31,439 root         DEBUG    Loader for watchdog was unable to find the sources
+2018-11-14 17:41:31,466 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
