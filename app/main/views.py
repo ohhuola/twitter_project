@@ -48,28 +48,13 @@ def common_manage(DynamicModel,view):
 
 #查询用户界面显示
 def common_search(DynamicModel,form,view):
-    id = request.args.get('id', '')
-    if id:
-        # 查询
-        model = DynamicModel.get(DynamicModel.id == id)
-        if request.method == 'GET':
-            utils.model_to_form(model, form)
-        # 修改
-        if request.method == 'POST':
-            if form.validate_on_submit():
-                utils.form_to_model(form, model)
-                model.save()
-                flash('修改成功')
-            else:
-                utils.flash_errors(form)
+
+    if form.validate_on_submit():
+        model = DynamicModel()
+        utils.form_to_model(form, model)
+        dict=utils.obj_to_dict(model)
+        return render_template('personInfo.html', form=dict, current_user=current_user)
     else:
-        # 新增
-        if form.validate_on_submit():
-            model = DynamicModel()
-            utils.form_to_model(form, model)
-            dict=utils.obj_to_dict(model)
-            return render_template('personInfo.html', form=dict, current_user=current_user)
-        else:
             utils.flash_errors(form)
     return render_template(view, form=form, current_user=current_user)
 
