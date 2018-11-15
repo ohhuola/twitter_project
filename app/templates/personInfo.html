@@ -1,5 +1,7 @@
 {% extends "base.html" %}
-
+{% block head %}
+<script src="{{ url_for('static', filename='js/echarts.min.js') }}"></script>
+{% endblock %}
 {% block title %}用户管理{% endblock %}
 
 
@@ -15,6 +17,154 @@
 {% endblock %}
 
 {% block content %}
-    {{ form.user_name }}
+    <div class="col-md-4">
+          <!-- Widget: user widget style 1 -->
+          <div class="box box-widget widget-user-2">
+            <!-- Add the bg color to the header using any of the bg-* classes -->
+            <div class="widget-user-header bg-light-blue">
+              <div class="widget-user-image">
+                <img class="img-circle" src="../static/images/user1.png" alt="User Avatar">
+              </div>
+              <!-- /.widget-user-image -->
+              <h3 class="widget-user-username">{{ form.user_name }}</h3>
+              <h5 class="widget-user-desc">{{ form.user_nick }}</h5>
+            </div>
+            <div class="box-footer no-padding">
+              <ul class="nav nav-stacked">
+                <li><a href="#">工作<span class="pull-right badge bg-gray">打铁匠</span></a></li>
+                <li><a href="#">地理位置<span class="pull-right badge bg-blue">31</span></a></li>
+                <li><a href="#">追随者<span class="pull-right badge bg-aqua">5</span></a></li>
+                <li><a href="#">总计推特数量<span class="pull-right badge bg-green">{{ form.number_of_tweets }}</span></a></li>
+                <li><a href="#">最近活跃时间 <span class="pull-right badge bg-red">842</span></a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- /.widget-user -->
+        </div>
+
+    <div class="col-md-8 ">
+          <!-- Bar chart -->
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <i class="fa fa-bar-chart-o"></i>
+
+              <h3 class="box-title">数据分析图样</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+            </div>
+            <div class="box-body">
+              <div class="col-md-7" id="pieChart" style="height: 240px;"></div>
+              <div class="col-md-5" id="barChart" style="height:240px;"></div>
+            </div>
+            <!-- /.box-body-->
+          </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+          <!-- The time line -->
+          <ul class="timeline">
+            <!-- timeline time label -->
+            <li class="time-label">
+                  <span class="bg-red">
+                    10 Feb. 2014
+                  </span>
+            </li>
+            <!-- /.timeline-label -->
+            <!-- timeline item -->
+            {% for i in range(4) %}
+                <li>
+                  <i class="fa  fa-twitter bg-blue"></i>
+                  <div class="timeline-item">
+                    <span class="time"><i class="fa fa-clock-o"></i> 12:05</span>
+                    <div class="timeline-body">
+                      Etsy doostang zoodles disqus groupon greplin oooj voxy zoodles,
+                      weebly ning heekya handango imeem plugg dopplr jibjab, movity
+                      jajah plickers sifteo edmodo ifttt zimbra. Babblely odeo kaboodle
+                      quora plaxo ideeli hulu weebly balihoo...
+                    </div>
+                    <div class="timeline-footer">
+                      <a class="btn btn-primary btn-xs">Read more</a>
+                      <a class="btn btn-danger btn-xs">Delete</a>
+                    </div>
+                  </div>
+                </li>
+            {% endfor %}
+            <!-- END timeline item -->
+
+          </ul>
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
 
 {% endblock %}
+{% block scripts %}
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('pieChart'));
+
+        // 指定图表的配置项和数据
+        var option = {
+             tooltip: {
+        trigger: 'item',
+        formatter: "{a} <br/>{b}: {c} ({d}%)"
+    },
+    legend: {
+        orient: 'vertical',
+        x: 'left',
+        data:['DDOS','PowerShell','Intel','CyberSecurity','Exp']
+    },
+    series: [
+        {
+            name:'使用次数',
+            type:'pie',
+            radius: '55%',
+            center: ['40%', '50%'],
+            itemStyle: {
+                emphasis: {
+                    shadowBlur: 10,
+                    shadowOffsetX: 0,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                }
+            },
+            data:[
+                {value:335, name:'DDOS'},
+                {value:310, name:'PowerShell'},
+                {value:234, name:'Intel'},
+                {value:135, name:'CyberSecurity'},
+                {value:1548, name:'Exp'}
+            ]
+        }
+    ]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+
+        var bar_chart = echarts.init(document.getElementById('barChart'));
+        option = {
+    legend: {
+        data:['发推次数']
+    },
+    xAxis: {
+        type: 'category',
+        data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [{
+        data: [120, 200, 150, 80, 70, 110, 130],
+        type: 'bar'
+    }]
+};
+    bar_chart.setOption(option);
+
+    </script>
+
+
+{%  endblock %}
