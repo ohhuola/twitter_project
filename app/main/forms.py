@@ -25,4 +25,4 @@ class SearchForm(FlaskForm):
     user_nick = StringField('用户昵称', validators=[Length(0, 200, message='长度不正确')])
     number_of_tweets = StringField('累计发推数量', validators=[Length(0, 200, message='长度不正确')])
     recent_active_time = StringField('最近活跃时间', validators=[Length(0, 200, message='长度不正确')])
-    submit = SubmitField('提交')
+    submit = SubmitField('查找')

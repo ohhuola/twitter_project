@@ -7,6 +7,8 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     {% block head %}{% endblock %}
     <title>管理平台 | {% block title %}标题{% endblock %}</title>
+{#    <script src="{{ url_for('static', filename='plugins/jQuery/jquery-2.2.3.min.js') }}"></script>#}
+
     <script type="text/javascript" src="{{ url_for('static', filename='js/echarts.min.js') }}"></script>
     <link rel="stylesheet" href="{{ url_for('static', filename='plugins/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='plugins/font-awesome/css/font-awesome.min.css') }}">
@@ -16,7 +18,6 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='plugins/pace/pace.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='plugins/bootstrap-switch/bootstrap-switch.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='plugins/select2/select2.min.css') }}">
-    {% block css %}{% endblock %}
     <link rel="stylesheet" href="{{ url_for('static', filename='plugins/adminlte/css/AdminLTE.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='plugins/adminlte/css/skins/skin-blue-light.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}">
@@ -80,36 +81,37 @@
                         <span>首页</span>
                     </a>
                 </li>
-                <li class="treeview">
-                    <a href="#">
+                <li>
+                    <a href="{{ url_for('main.manage') }}">
                         <i class="fa fa-user"></i>
-                        <span>用戶管理</span>
-                        <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="{{ url_for('main.adduser') }}"><i class="fa fa-flag-o"></i> 增添用户</a></li>
-                        <li><a href="{{ url_for('main.manage') }}"><i class="fa fa-location-arrow"></i> 管理用户</a></li>
-                        <li><a href="{{ url_for('main.searchpage') }}"><i class="fa fa-rocket"></i> 查詢用户</a></li>
-                    </ul>
-                </li>
-                <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-user"></i>
-                        <span>总览</span>
-                        <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
+                        <span>管理用户</span>
                     </a>
                 </li>
-                <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-cog"></i>
-                        <span>数据展示</span>
-                        <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
+                <li>
+                    <a href="{{ url_for('main.adduser') }}">
+                        <i class="fa fa-user-plus"></i>
+                        <span>添加用户</span>
                     </a>
-                    <ul class="treeview-menu">
+                </li>
+                <li>
+                    <a href="{{ url_for('main.searchpage') }}">
+                        <i class="fa fa-search"></i>
+                        <span>查询用户</span>
+                    </a>
+                </li>
 
-                        <li><a href="{{ url_for('main.hello') }}"><i class="fa fa-circle-o"></i>三维图</a></li>
-                    </ul>
-                </li>
+{#                <li class="treeview">#}
+{#                    <a href="#">#}
+{#                        <i class="fa fa-user"></i>#}
+{#                        <span>查询用户</span>#}
+{#                        <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>#}
+{#                    </a>#}
+{#                    <ul class="treeview-menu">#}
+{##}
+{#                        <li><a href="{{ url_for('main.searchpage') }}"><i class="fa fa-rocket"></i> 查詢用户</a></li>#}
+{#                    </ul>#}
+{#                </li>#}
+
             </ul>
         </section>
     </aside>
@@ -154,7 +156,8 @@
     </div>
 </div>
 
-<script src="{{ url_for('static', filename='plugins/jQuery/jquery-2.2.3.min.js') }}"></script>
+
+
 <script src="{{ url_for('static', filename='plugins/bootstrap/js/bootstrap.min.js') }}"></script>
 <script src="{{ url_for('static', filename='plugins/slimScroll/jquery.slimscroll.min.js') }}"></script>
 <script src="{{ url_for('static', filename='plugins/fastclick/fastclick.js') }}"></script>

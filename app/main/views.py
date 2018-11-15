@@ -50,9 +50,11 @@ def common_manage(DynamicModel,view):
 def common_search(DynamicModel,form,view):
 
     if form.validate_on_submit():
-        model = DynamicModel()
+        model=DynamicModel()
         utils.form_to_model(form, model)
-        dict=utils.obj_to_dict(model)
+        dict = utils.obj_to_dict(model)
+        model = DynamicModel.get(dict['user_name']==DynamicModel.user_name)
+        dict = utils.obj_to_dict(model)
         return render_template('personInfo.html', form=dict, current_user=current_user)
     else:
             utils.flash_errors(form)
@@ -132,3 +134,8 @@ def adduser():
 def searchpage():
     return common_search(Twitter,SearchForm(),'Searchuser.html')
 
+#测试页面
+@main.route('/test')
+@login_required
+def test():
+    return render_template('test.html')
