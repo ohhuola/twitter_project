@@ -110,6 +110,33 @@ def model_to_form(model, form):
             field.data = v
             form.__setattr__(k, field)
 
+def dict_to_text(dict):
+    exurls = {}
+    tags = {}
+    mention_names = {}
+
+    # 处理hashtags
+    temp1 = dict['hashtags'].split(';')
+    temp2 = dict['user_mentions_name'].split(';')
+    exurls = dict['exurl'].split(';')
+    for i in temp1:
+        tags[i[:-3]] = i[-2:-1]  # 前算后不算
+    del dict['hashtags']
+    for i in temp2:
+        mention_names[i[:-3]] = i[-2:-1]
+    del dict['user_mentions_name']
+    del dict['exurl']
+    return dict, tags, exurls, mention_names
+
+def dict_to_chart(dict):
+    dict1={}
+    result=[]
+    for k,val in dict.items():
+        dict1['value']=val
+        dict1['name']=k
+        result.append(dict1.copy())#浅复制后，原对象的变化不会影响到浅复制得到的对象
+        dict1.clear()
+    return result
 
 def flash_errors(form):
     for field, errors in form.errors.items():
