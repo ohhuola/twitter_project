@@ -67,7 +67,6 @@ class Tweet(BaseModel):
     media_url = CharField() #短网址原始推文url
     user_mentions_name = CharField()
     user_mentions_nick = CharField()
-    tweet_user_name = CharField()
     time=CharField()
 
 

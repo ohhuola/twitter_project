@@ -2240,6 +2240,7 @@ a:focus {
 .btn-primary {
   background-color: #3c8dbc;
   border-color: #367fa9;
+    opacity: 0.1;
 }
 .btn-primary:hover,
 .btn-primary:active,

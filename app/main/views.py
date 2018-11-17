@@ -13,7 +13,7 @@ import math
 from flask import render_template, redirect, url_for, flash, request
 from flask_login import login_required, current_user
 from app import utils
-from app.models import Twitter
+from app.models import Twitter, Tweet
 from app.main.forms import UserForm,SearchForm
 from . import main
 
@@ -47,22 +47,30 @@ def common_manage(DynamicModel,view):
     return render_template(view, form=dict, current_user=current_user)
 
 #查询用户界面显示
-def common_search(DynamicModel,form,view):
-
+def common_search(DynamicModel,TweetModel,form,view):
+    tweet={}
+    time=[]
     if form.validate_on_submit():
         try:
-            model=DynamicModel()
-            utils.form_to_model(form, model)
-            dict = utils.obj_to_dict(model)
-            model = DynamicModel.get(dict['user_name']==DynamicModel.user_name)
-            dict = utils.obj_to_dict(model)
-            info, tagsT, exurls, mention_namesT = utils.dict_to_text(dict)
-            #tags=utils.dict_to_chart(tagsT)
-            #mention_names=utils.dict_to_chart(mention_namesT)
-            #print(tags)
+            DModel=DynamicModel()
+            utils.form_to_model(form, DModel)
+            dict = utils.obj_to_dict(DModel)
+            name=dict['user_name']
+            DModel = DynamicModel.get(name==DynamicModel.user_name)
+            dict = utils.obj_to_dict(DModel)
+            info, tags, exurls, mention_names = utils.dict_to_text(dict)
+
+            TModel=TweetModel()
+            query=TModel.select().where(TweetModel.tweet_user_name==name)
+            for i in query:
+                tweet[i.tweets]=i.time
+                time.append(i.time)
+
             test=[12,43,65,76,8]
-            return render_template('personInfo.html',freq=test, form=info,tags=tagsT,urls=exurls,friends=mention_namesT, current_user=current_user)
-        except:
+            return render_template('personInfo.html',tweet=tweet,time=time,freq=test, form=info,urls=exurls,tags=tags,friends=mention_names, current_user=current_user)
+        except Exception as e:
+            print (e)
+
             return render_template('errors/404.html')
     else:
             utils.flash_errors(form)
@@ -140,7 +148,7 @@ def adduser():
 @main.route('/searchpage',methods=['GET','POST'])
 @login_required
 def searchpage():
-    return common_search(Twitter,SearchForm(),'Searchuser.html')
+    return common_search(Twitter,Tweet,SearchForm(),'Searchuser.html')
 
 #测试页面
 @main.route('/test')
