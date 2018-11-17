@@ -32,10 +32,10 @@
             <div class="box-footer no-padding">
               <ul class="nav nav-stacked">
                 <li><a href="#">工作<span class="pull-right badge bg-gray">打铁匠</span></a></li>
-                <li><a href="#">地理位置<span class="pull-right badge bg-blue">31</span></a></li>
-                <li><a href="#">追随者<span class="pull-right badge bg-aqua">5</span></a></li>
+                <li><a href="#">地理位置<span class="pull-right badge bg-blue">洛杉矶</span></a></li>
+                <li><a href="#">追随者<span class="pull-right badge bg-aqua">22K</span></a></li>
                 <li><a href="#">总计推特数量<span class="pull-right badge bg-green">{{ form.number_of_tweets }}</span></a></li>
-                <li><a href="#">最近活跃时间 <span class="pull-right badge bg-red">842</span></a></li>
+                <li><a href="#">最近活跃时间 <span class="pull-right badge bg-red">{{ form.recent_active_time }}</span></a></li>
               </ul>
             </div>
           </div>
@@ -63,6 +63,8 @@
             <!-- /.box-body-->
           </div>
     </div>
+
+
     <div class="row">
         <div class="col-md-12">
           <!-- The time line -->
@@ -107,6 +109,15 @@
         // 基于准备好的dom，初始化echarts实例
         var myChart = echarts.init(document.getElementById('pieChart'));
 
+
+        {#var test={{ tags }};#}
+        var seriesData = [];
+        var list=[];
+        {#for (var key in test){#}
+        {#    seriesData.push({value: test[key], name: key});#}
+        {#    list.push(test[key]);#}
+        {#}#}
+
         // 指定图表的配置项和数据
         var option = {
              tooltip: {
@@ -116,7 +127,7 @@
     legend: {
         orient: 'vertical',
         x: 'left',
-        data:['DDOS','PowerShell','Intel','CyberSecurity','Exp']
+        data:['直接访问','邮件营销','联盟广告','视频广告','搜索引擎']
     },
     series: [
         {
@@ -132,12 +143,13 @@
                 }
             },
             data:[
-                {value:335, name:'DDOS'},
-                {value:310, name:'PowerShell'},
-                {value:234, name:'Intel'},
-                {value:135, name:'CyberSecurity'},
-                {value:1548, name:'Exp'}
+                {value:335, name:'直接访问'},
+                {value:310, name:'邮件营销'},
+                {value:234, name:'联盟广告'},
+                {value:135, name:'视频广告'},
+                {value:1548, name:'搜索引擎'}
             ]
+
         }
     ]
         };
@@ -158,7 +170,7 @@
         type: 'value'
     },
     series: [{
-        data: [120, 200, 150, 80, 70, 110, 130],
+        data: {{ freq }},
         type: 'bar'
     }]
 };

@@ -1,5 +1,7 @@
 {% extends "base.html" %}
-
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='plugins/twitter/twitter.css') }}">
+{% endblock %}
 {% block title %}用户管理{% endblock %}
 
 
@@ -22,18 +24,19 @@
             {% include 'message.html' %}
         </div>
 
-        <div class="box-body">
-            <div class="col-md-12" style="margin-top:20px; margin-bottom: 50px">
-                <img src="../static/plugins/twitter/img/twitter2.png" style="width:400px;height:270px;" class="center-block">
+        <div class="box-body" style="background-image:url(../static/plugins/twitter/img/universe.jpg);height:550px">
+            <div class="col-md-12" style="">
+                <img src="../static/plugins/twitter/img/universe.jpg" style="width:400px;height:270px;" class="center-block">
             </div>
             <div class="col-md-6 col-md-offset-3">
-                <div class="form-group">
+                <div class="form-group" style="opacity:0.8">
                     {{form.user_name(class_="form-control",placeholder="请输入用户名称")}}
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-3" >
                 {{form.submit(class_="btn btn-primary")}}
+
             </div>
         </div>
     </form>
