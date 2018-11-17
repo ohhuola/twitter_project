@@ -77,6 +77,9 @@ class Twitter(BaseModel):
     user_nick = CharField()
     recent_active_time=CharField()
     number_of_tweets=CharField()
+    user_mentions_name=CharField()
+    hashtags=CharField()
+    exurl=CharField()
 
 
 
