@@ -50,12 +50,20 @@ def common_manage(DynamicModel,view):
 def common_search(DynamicModel,form,view):
 
     if form.validate_on_submit():
-        model=DynamicModel()
-        utils.form_to_model(form, model)
-        dict = utils.obj_to_dict(model)
-        model = DynamicModel.get(dict['user_name']==DynamicModel.user_name)
-        dict = utils.obj_to_dict(model)
-        return render_template('personInfo.html', form=dict, current_user=current_user)
+        try:
+            model=DynamicModel()
+            utils.form_to_model(form, model)
+            dict = utils.obj_to_dict(model)
+            model = DynamicModel.get(dict['user_name']==DynamicModel.user_name)
+            dict = utils.obj_to_dict(model)
+            info, tagsT, exurls, mention_namesT = utils.dict_to_text(dict)
+            #tags=utils.dict_to_chart(tagsT)
+            #mention_names=utils.dict_to_chart(mention_namesT)
+            #print(tags)
+            test=[12,43,65,76,8]
+            return render_template('personInfo.html',freq=test, form=info,tags=tagsT,urls=exurls,friends=mention_namesT, current_user=current_user)
+        except:
+            return render_template('errors/404.html')
     else:
             utils.flash_errors(form)
     return render_template(view, form=form, current_user=current_user)
